@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 해당 페이지의 제목을 의미합니다. -->
+    <title>html 및 css 공부</title>
+    <!-- 
+        파비콘은 link로 추가하며 브라우저 탭의 페이지 제목 왼쪽에 설정한 이미지가 출력됩니다.
+        작은 이미지여야 하며 ico, png, gif, jpeg, svg 파일을 지원합니다.
+     -->
+    <link rel="icon" type="image/x-icon" href="./form-rect/public/favicon.ico">
+    <!-- 내부 css -->
+    <style>
+        table, th, td{
+            border : 1px solid black;
+            border-collapse: collapse; /** 이걸 사용하지않는다면 테두리가 이중으로 보입니다. **/
+        }
+
+        #table tr:nth-child(odd){
+            background-color: #D6EEEE;
+        }
+
+    </style>
+    <!-- 외부 css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        테이블 태그이며 tr이 행을 의미 th, td기 열을 의미 th가 테이블의 헤드이고 td가 테이블 셀을 의미
+        style을 통해 테이블이나 행/열 단위로 스타일을 지정할 수 있다.
+    -->
+    <table style="width: 100%;"><!-- inline css -->
+        <caption>테이블 제목</caption>
+        <!-- 열의 개수를 묶어 열마다의 style을 지정할수있다. -->
+        <colgroup>
+            <col span="1" style="background-color: aqua;">
+            <col span="2" style="background-color: blueviolet;">
+        </colgroup>
+        <tr>
+            <!-- colspan은 열을 병합한단 의미 즉 colspan은 2개를 하나로 사용하겠다는 의미 -->
+            <th colspan="2">2개가 병합된 상태</th> 
+            <th>1개 단독</th>
+        </tr>
+
+        <tr>
+            <td>2개로</td>
+            <td>나누어져 있습니다.</td>
+            <td>1개 입니다.</td>
+        </tr>
+    </table>
+
+    <!-- 수평으로 만들고싶다면 th 하나에 여러 개의 td로 구성하면된다.
+         .table tr:nth-child(odd) 를 통해 테이블을 꾸몄는데 
+         odd는 1, 3, 5 와 같이 홀수번째 행이 even이 2, 4, 6과 같이 짝수번째 행이  
+    -->
+    <table id="table">
+        <tr>
+            <th>수직으로도</th>
+            <td>1개 단독</td>
+            <!-- colspan은 행을 병합한단 의미 즉 rowspan은 2개를 하나로 사용하겠다는 의미 -->
+            <td rowspan="2">2개가 병합된 상태</td>
+        </tr>
+        <tr>
+            <th>가능합니다.</th>
+            <td>개별적인 셀</td>
+        </tr>
+
+        <tr>
+            <th>대충</th>
+            <td>만든</td>
+            <td>테이블</td>
+        </tr>
+    </table>
+
+    <!-- 순서가 없는 목록 -->
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <!-- 순서가 있는 목록 -->
+    <ol>
+        <li>첫번째</li>
+        <li>두번째</li>
+        <li>세번째</li>
+    </ol>
+
+    <!-- dl은 설명 목록, dt는 용어, dd는 용어 설명 -->
+    <dl>
+        <dt>HTTP METHOD</dt>
+        <dd>GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH</dd>
+    </dl>
+
+    <!--
+        block element
+        <address> <article> <aside> <blockquote> <canvas>
+        <dd> <div> <dl> <dt> <fieldset>
+        <figcaption> <figure> <footer> <form> <h1>-<h6> 
+        <header> <hr> <li> <main> <nav>
+        <noscript> <ol> <p> <pre> <section>
+        <table> <tfoot> <ul> <video>
+    -->
+    <P>block 요소입니다.</P>
+    <div> 해당 요소는 새 줄에서 시작을 하며 사용 가능한 전체를 차지 너비를 가집니다.</div>
+
+    <!--
+        lnline element
+        <a> <abbr> <acronym> <b> <bdo>
+        <big> <br> <button> <cite> <code>
+        <dfn> <em> <i> <img> <input>
+        <kbd> <label> <map> <object> <output>
+        <q> <samp> <script> <select> <small>
+        <span> <strong> <sub> <sup> <textarea>
+        <time> <tt> <var>
+    -->
+    <sapn>lnline 요소입니다.</sapn>
+    <var>해당 요소는 필요한 만큼의 너비만 차지합니다.</var>
+
+
+</body>
+</html>

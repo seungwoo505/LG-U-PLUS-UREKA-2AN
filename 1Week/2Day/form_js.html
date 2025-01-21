@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 폼</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 15px;
+        }
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+    <script>
+        function validateForm(event) {
+            const nameInput = document.getElementById('name');
+            if (!nameInput.value) {
+                event.preventDefault(); // 폼 제출을 막음
+                alert('이름을 입력해 주세요.'); // 알림 표시
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>회원가입</h1>
+        <form action="/submit" method="post" onsubmit="validateForm(event)">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">비밀번호:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="가입하기">
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+/*
+    문법 구조
+
+    selector {
+        property : value; (Declaration)
+        property : value; (Declaration)
+    }
+    
+    selector는 element, id, class 로 이루어져있습니다.
+    그리고 해당 selector에 적용하고싶은 디자인을 {} 안에 작성하면됩니다.
+    Declaration(적용하고 싶은 것)를 작성하게되는데 property는 적용하고싶은 것(예시로 background-color)을 적고 구분자로 : 로 구분한다 그 다음 value(예시로 red, rgb(255, 0, 0) 또는 hsla(100%, 0, 0))
+    그리고 Declaration를 구분하기위해 ;를 붙여 구분하게된다.
+
+    적용 우선 순위는 
+    1. inline style
+    2. 외부 및 내부 style
+    3. 브라우저 기본 값
+
+    class는 .으로 시작하고
+    id는 #으로 시작한다.
+
+    id : 유니크한 값을 가진다. html 문서에서 동일한 id 값을 갖는 요소가 있을 수 없다. 
+    (동일하다고해서 동작을 안하는 것은 아니나 좋은 코드라고 보기 어렵다.)
+    class : id와 다르게 같은 이름을 가진 element가 있을 수 있다.
+
+    여러 개가 동일한 스타일을 원한다면 class, 단독인 스타일을 원한다면 id를 사용하도록하자.
+
+    또한 여러 개를 동일한 스타일로 변경하고 싶다면 , 로 구분하여 그룹화를 할 수 있다.
+
+    모든 html 요소에 적용하고 싶다면 *을 통해 적용이 가능하다.
+
+    p.center는 p 요소 중 center 클래스를 가진 것을 적용할 것이다 라는 의미이다.
+*/
