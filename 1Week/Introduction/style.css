@@ -1,0 +1,107 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 컨테이너 설정 */
+.card-container {
+    width: 100%;
+    max-width: 600px; /* 최대 너비 제한 */
+    aspect-ratio: 3 / 4; /* 가로 세로 비율 고정 */
+    perspective: 1200px; /* 카드 회전에 입체감을 추가 */
+  }
+  
+  /* 카드 스타일 */
+  .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0);
+    transition: transform 0.6s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* 카드 앞면과 뒷면 */
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .card-front *, .card-back *{
+    margin: 0 0 2% 0;
+  }
+
+  .card-front > div{
+    width: 50%;
+  }
+  
+  /* 뒷면 회전 */
+  .card-back {
+    transform: rotateY(180deg);
+  }
+  
+  /* 카드가 뒤집힐 때 */
+  .card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  /* 이미지 스타일 */
+  .profile-image, .location-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  /* 텍스트 스타일 */
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  a{
+    width: 10%;
+  }
+
+  a > img {
+    width: 100%;
+  }
+  
+  /* 반응형 스타일 */
+  @media (max-width: 768px) {
+    .card-container {
+      max-width: 90%; /* 작은 화면에서는 너비 확장 */
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  
