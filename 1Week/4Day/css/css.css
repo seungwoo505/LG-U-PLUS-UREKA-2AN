@@ -1,0 +1,49 @@
+.modal_body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    margin: 0;
+  }
+  .modal_container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* width: 300px; */
+    margin: 50px 0;
+  }
+  .modal_container h1 {
+    text-align: center;
+    color: #333;
+  }
+  .modal_container label {
+    margin-top: 10px;
+    display: block;
+    color: #555;
+  }
+  .modal_container input[type="text"],
+  .modal_container input[type="email"],
+  .modal_container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .modal_container input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .modal_container input[type="submit"]:hover {
+    background-color: #4cae4c;
+  }
