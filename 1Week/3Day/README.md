@@ -21,9 +21,10 @@ div p 라고 적으면 div 안에 있는 p와 img 안에 속한 p도 함께 적�
 bootstrap 5
 
 부트스트랩을 사용하려면
-
+'''
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+'''
 
 이 두가지가 반드시 존재해야한다.
 
@@ -34,9 +35,9 @@ bootstrap 5
 
 차이점은 .container의 경우 좌우 여백이 조금 존재하고 .container-fluid는 여백 없이 꽉채운다.
 
-            Extra small         Small           Medium          Large           Extra Large         XXL
-            <576px              ≥576px          ≥768px          ≥992px          ≥1200px             ≥1400px
-max-width	100%	            540px	        720px	        960px	        1140px	            1320px
+                Extra small         Small           Medium          Large           Extra Large         XXL
+                <576px              ≥576px          ≥768px          ≥992px          ≥1200px             ≥1400px
+    max-width	100%	            540px	        720px	        960px	        1140px	            1320px
 
 위 표에 따라 최대 크기를 지정할 수 있다.
 
