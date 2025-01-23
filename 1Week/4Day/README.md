@@ -34,9 +34,12 @@ or
 
 )
 
-ex) document.getElementById("id 명").style.color = "red"; // id 명을 가진 태그의 컬러를 레드로 지정
+ex) 
+```
+document.getElementById("id 명").style.color = "red"; // id 명을 가진 태그의 컬러를 레드로 지정
 
-    let 컬러 = document.getElementById("id 명").style.color // 변수 명 컬러에 id 명을 가진 태그의 컬러 값을 대입해라
+let 컬러 = document.getElementById("id 명").style.color // 변수 명 컬러에 id 명을 가진 태그의 컬러 값을 대입해라
+```
 
 html에 script 태그는 아무 곳이나 적어도 상관은 없다 다만, 가독성을 위해 한 곳에 몰아 적는 것을 추천
 
@@ -56,9 +59,11 @@ var, let은 변수 / const 는 상수
 
 예시로 
 
+```
 console.log(a);
 
 var a = "안녕하세요";
+```
 
 라고 했을 때 에러가 아니라 console에 undefined 라고 나온다.
 
@@ -68,9 +73,11 @@ a라는 변수를 미리 읽고 a = "안녕하세요"; 이게 61번째 줄에 �
 
 그것을 해결한 것이 let이다.
 
+```
 console.log(a);
 
 let a = "안녕하세요";
+```
 
 이렇게 할 경우 에러를 내보낸다.
 
@@ -85,11 +92,17 @@ let a = "안녕하세요";
 const array나 object 사용할 때도 사용하는 것을 추천
 
 array 자체를 변경을 하진못해도 
+
     push()(마지막 인덱스에 값을 추가), 
+
     unshift()(첫번째 인덱스에 값을 추가), 
+
     splice(start, deleteCount, itemN)(시작 지점에서 개수를 지정하면 그 부분을 삭제하고 itemN으로 대체), 
+
     pop()(마지막 인덱스 삭제), 
+
     shift()(첫번째 인덱스 삭제)
+    
     등등을 통해서 안의 값은 변경 가능
 
 object도 마찬가지
