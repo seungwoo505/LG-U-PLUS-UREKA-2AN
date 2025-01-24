@@ -23,3 +23,7 @@ LG U+ 유레카 프론트엔드 비대면
 
 [4일차(1월 23일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/4Day)
 : Bootstrap / js 기초
+
+[5일차(1월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/5Day)
+: js 기초
+
