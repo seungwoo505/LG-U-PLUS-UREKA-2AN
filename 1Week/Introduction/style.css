@@ -56,10 +56,13 @@ body{
   .card-back {
     transform: rotateY(180deg);
   }
-  
-  /* 카드가 뒤집힐 때 */
-  .card.flip {
-    transform: rotateY(180deg);
+
+  #top {
+    transform: rotateX(180deg);
+  }
+
+  #button {
+    transform: rotateX(-180deg);
   }
   
   /* 이미지 */
