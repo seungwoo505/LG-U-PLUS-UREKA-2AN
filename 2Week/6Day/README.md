@@ -1,6 +1,10 @@
-setTimeout(function, milliseconds); <- 일회성 처리
+```
 
-setInterval(function, milliseconds); <- 다회성 처리
+setTimeout(function, milliseconds); // 일회성 처리
+
+setInterval(function, milliseconds); // 다회성 처리
+
+```
 
 setTimeout은 milliseconds 후에 function을 처리한다는 의미
 
@@ -22,13 +26,21 @@ cookie - 정보 중에 개인적으로 가지고있지만 새로고침으로도 
 
 각각 필요한 상황에 따라 맞춰 지정을 하는 것이 중요
 
-ex) document.cookie = "username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/"; - 만료 시간 지정
+ex)
+
+```
+
+document.cookie = "username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/"; - 만료 시간 지정
 
 document.cookie = "username=John Doe"; - 만료 시간 미지정
 
 document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"; - 강제로 쿠키를 지우고 싶을 경우
 
+```
+
 ---------------------------------------------------------------------------------------------------------
+
+```
 
 Arrow Function
 
@@ -38,9 +50,13 @@ or
 
 const x = (x, y) => {return x * y}
 
+```
+
 왜 우리는 화살표 함수가 나오게 되었고 사용을 해야하는가 =>
 
 우선 예시를 보자면 
+
+```
 
 let obj={
 	myVar: 'foo',
@@ -50,9 +66,13 @@ let obj={
 }
 obj.myMeth(); // foo
 
+```
+
 일반적으로 다른 언어에서 보는 것과 동일하게 나온다.
 
 그러나 이렇게 작성하면 어떻게 나올까
+
+```
 
 let obj = {
   myVar: 'foo',
@@ -67,6 +87,8 @@ let obj = {
 }
 obj.myMeth(); //foo  undefined
 
+```
+
 setTimeout 안에 넣는 것만 추가했을 뿐인데 setTimeout 안의 값이 undefined 으로 바뀐 것을 볼 수 있다.
 
 setTimeout의 실행 주체가 obj가 아니라 window 이기 때문에 그런 것이다.
@@ -74,6 +96,8 @@ setTimeout의 실행 주체가 obj가 아니라 window 이기 때문에 그런 �
 window를 바라봤을 때 myVar의 값이 없으니 undefined가 나온 것이다.
 
 해결 방법은
+
+```
 
 let obj = {
   myVar: 'foo',
@@ -88,11 +112,15 @@ let obj = {
 }
 obj.myMeth(); // foo  foo
 
+```
+
 이렇게 작성하면 기대했던 바와 같이 동일하게 출력되는 것을 알 수 있다.
 
 .bind(this) 이걸 통해 this를 obj로 고정한다는 의미이다.
 
 그리고 여기서 화살표 함수를 사용해야하는 이유가 나온다.
+
+```
 
 let obj = {
   myVar: 'foo',
@@ -107,11 +135,15 @@ let obj = {
 }
 obj.myMeth(); // foo  foo
 
+```
+
 위와같이 동일한 결과 값을 도출한다는 것을 알 수 있다.
 
 위에 bind 한 것처럼 나온다는 것이다.
 
 다만
+
+```
 
 let obj = {
   myVar: 'foo',
@@ -125,6 +157,8 @@ let obj = {
   }
 }
 obj.myMeth(); // undefined undefined
+
+```
 
 function jes() 이 부분 까지 화살표 함수로 만들면 안된다.
 
