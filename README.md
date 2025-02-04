@@ -45,3 +45,5 @@ LG U+ 유레카 프론트엔드 비대면
 [6일차(2월 03일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/6Day)
 : js 기초 / Spring Boot 맛보기
 
+[7일차(2월 04일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/7Day)
+: js 기초 / ts 기초
