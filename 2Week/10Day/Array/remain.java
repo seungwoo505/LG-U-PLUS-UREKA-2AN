@@ -1,20 +1,20 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 public class remain {
     public static void main(String[] args) {
         try{
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            Map<Integer, Integer> map = new HashMap<>();
+            Set set = new HashSet<>();
 
             for(int i = 0; i < 10; i++){
-                map.put(Integer.parseInt(br.readLine()) % 42, null);
+                set.add(Integer.parseInt(br.readLine()) % 42);
             }
 
-            System.out.println(map.size());
+            System.out.println(set.size());
         }catch(IOException e){
 
         }
