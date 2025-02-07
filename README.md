@@ -27,19 +27,6 @@ LG U+ 유레카 프론트엔드 비대면
 [5일차(1월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/5Day)
 : js 기초
 
-
-주간 보고 : html, css, js를 배웠다 
-
-기초부분이라 아직까진 쉬웠다
-
-알고있던 부분도 많았지만 새롭게 알게된 사실도 분명이 존재했다.
-
-기초부분이지만 유익했던 한 주였던거같다.
-
-다음주는 설날주간이라해서 7일을 쉰다고한다 이 기간동안 배웠던 것을 다시 한번 더 복습을 하고
-
-3일차(1 / 22)에 올렸던 자기소개를 좀 더 다듬어서 완전히 내 것으로 만드는 것을 목표로 할 것이다.
-
 ----------------------------------      [2주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week)      -----------------------------------
 
 [6일차(2월 03일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/6Day)
@@ -52,5 +39,8 @@ LG U+ 유레카 프론트엔드 비대면
 : ts 기초
 
 [9일차(2월 06일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/9Day)
+: Java 기초
+
+[10일차(2월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/10Day)
 : Java 기초
 
