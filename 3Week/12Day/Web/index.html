@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>도서관</title>
-    <link href="./css/css.css">
+    <link rel="stylesheet" href="./css/css.css">
 </head>
 <body>
-    <div>
+    <div id="login">
         id : <input id="id" autocomplete="username" type="text" name="id"><br>
         password : <input id="pw" autocomplete="current-password" type="password" name="password"><br>
-        <input type="submit" onclick="login()">
+        <button onclick="login()">로그인</button>
     </div>
     <main>
         <div>
+            책 제목 : <input id="book" type="text" >
+            <button onclick="book()">찾기</button>
+
+        </div>
+        <div>
+            책 제목 : <input id="title" type="text" >
+            지은이 : <input id="author" type="text" >
+            줄거리 : <textarea id="plot" cols="20" rows="5" placeholder="줄거리"></textarea>
+            <button onclick="bookAdd()">책 추천</button>
+
         </div>
     </main>
 </body>
