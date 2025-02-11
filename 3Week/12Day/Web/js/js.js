@@ -1,3 +1,33 @@
+const sign1 = () => {
+    document.getElementById("login").innerHTML = `id : <input id="id" autocomplete="username" type="text" name="id"><br>
+        password : <input id="pw" autocomplete="current-password" type="password" name="password"><br>
+        nickname : <input id="nickname" type="text" name="nickname"><br>
+        <button onclick="sign2()">가입하기</button>`;
+}
+
+const sign2 = () => {
+    const id = document.getElementById("id").value;
+    const pw = document.getElementById("pw").value;
+    const nickname = document.getElementById("nickname").value;
+    
+    fetch("https://seungwoo.i234.me:3333/signUp", {
+        method : "POST",
+        headers : { "Content-Type" : "application/json"},
+        body : JSON.stringify({
+            userId : id,
+            password : pw,
+            nickname : nickname
+        })
+    })
+    .then( async e =>{
+        const data = await e.json();
+        alert(data.message);
+        if(data.success)document.getElementById("login").innerHTML = `id : <input id="id" autocomplete="username" type="text" name="id"><br>
+        password : <input id="pw" autocomplete="current-password" type="password" name="password"><br>
+        <button onclick="login()">로그인</button>`;
+    });
+}
+
 const login = () =>{
     const id = document.getElementById("id").value;
     const pw = document.getElementById("pw").value;
@@ -61,4 +91,4 @@ const bookAdd = () => {
         document.getElementById("author").value = "";
         document.getElementById("plot").value = "";
     });
-}
+};

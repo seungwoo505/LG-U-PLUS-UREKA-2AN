@@ -31,7 +31,7 @@ app.post("/login", async (req, res) => {
     const { userId, password } = req.body;
 
     try {
-        const [rows] = await db.query("SELECT * FROM SHOPPING_USER_INFORMATION WHERE USER_ID = ? AND USR_YN = 1", [userId]);
+        const [rows] = await db.query("SELECT * FROM BOOK_LOGIN WHERE ID = ?", [userId]);
         if(rows.length === 0) {
             console.log("사용자를 찾지못했습니다.");
             return res.status(404).json({success : false, message : "사용자를 찾을 수 없습니다."});
@@ -48,11 +48,11 @@ app.post("/login", async (req, res) => {
 
         if(!isPasswordValid) {
             console.log("패스워드 오류");
-            await db.query("UPDATE SHOPPING_USER_INFORMATION SET FAIL_COUNT = ? WHERE USER_ID = ?", [user.FAIL_COUNT + 1, userId]);
+            await db.query("UPDATE BOOK_LOGIN SET FAIL_COUNT = ? WHERE ID = ?", [user.FAIL_COUNT + 1, userId]);
             return res.status(401).json({success : false, message : "아이디나 비밀번호가 일치하지않습니다."});
         }
 
-        await db.query("UPDATE SHOPPING_USER_INFORMATION SET FAIL_COUNT = ? WHERE USER_ID = ?", [0, userId]);
+        await db.query("UPDATE BOOK_LOGIN SET FAIL_COUNT = ? WHERE ID = ?", [0, userId]);
 
         console.log(`${userId} 로그인`);
 
@@ -62,6 +62,26 @@ app.post("/login", async (req, res) => {
     }catch (err){
         console.error(err);
         return res.status(500).json({success : false, message : "로그인이 실패했습니다.\n잠시 후에 다시 시도해주세요."});
+    }
+});
+
+app.post("/signUp", async (req, res) => {
+    const {userId, password, nickname} = req.body;
+
+    try{
+        const [idRows] = await db.query('SELECT * FROM BOOK_LOGIN WHERE ID = ?', [userId]);
+        if(idRows.length > 0) return res.status(400).json({success : false, message : "이미 사용중인 아이디입니다."});
+
+        const hashedPassword = await bcrypt.hash(password, 10);
+
+        await db.query('INSERT INTO BOOK_LOGIN(ID, PASSWORD, NICKNAME) VALUES (?, ?, ?)', [userId, hashedPassword, nickname]);
+
+        console.log(`${userId} 회원가입`);
+
+        return res.status(201).json({success : true, message : "회원가입이 완료되었습니다.\n인증 메일을 확인해주세요."});
+    } catch(err){
+        console.error("회원가입 오류 : ", err);
+        return res.status(500).json({success : false, message : "회원가입에 실패했습니다."});
     }
 });
 
