@@ -15,9 +15,10 @@ document.getElementById("signupBtn").addEventListener("click", () => {
 		method : "POST",
 		headers : headers,
 		body : data
-	}).then(async e => {
-			console.log(e);
-		})
+	}).then(response => response.text())
+	.then(data => {
+		alert(data);
+	})
 });
 
 document.getElementById("loginBtn").addEventListener("click", () => {
@@ -35,7 +36,8 @@ document.getElementById("loginBtn").addEventListener("click", () => {
 		method : "POST",
 		headers : headers,
 		body : data
-	}).then(async e => {
-		console.log(e);
+	}).then(response => response.text())
+	.then(data => {
+		alert(data);
 	})
 });

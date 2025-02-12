@@ -25,8 +25,13 @@ public class MemberController {
 		map.put("email", member.getEmail());
 		map.put("pw", member.getPwd());
 		
-		list.add(map);
+		for(Map<String, String> maps : list) {
+			if(maps.get("email").equals(member.getEmail())){
+				return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("이미 가입된 아이디입니다.");
+			}
+		}
 		
+		list.add(map);
 		return ResponseEntity.status(HttpStatus.OK).body(member.getEmail() + "님 가입을 환영합니다.");
 	}
 
