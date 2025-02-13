@@ -54,3 +54,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [13일차(2월 12일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week/13Day)
 : Java 기초
+
+[14일차(2월 13일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week/14Day)
+: Java 기초 / 코테 풀기(40문제)
