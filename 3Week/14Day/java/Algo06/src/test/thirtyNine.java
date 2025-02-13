@@ -8,7 +8,7 @@ public class thirtyNine {
         
         for(int i = 1; i < numLog.length; i++) { 
         	answer.append(numLog[i] - ans == 1 ? "w" : numLog[i] - ans  == -1 ? "s" : numLog[i] - ans  == 10 ? "d" : "a" );
-        	ans = numLog[i] - ans;
+        	ans = numLog[i];
         }
         return answer.toString();
     }
