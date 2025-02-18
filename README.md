@@ -56,7 +56,7 @@ LG U+ 유레카 프론트엔드 비대면
 : Java 기초
 
 [14일차(2월 13일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week/14Day)
-: Java 기초 / 코테 풀기(40문제) -> 과제(20문제 풀기)
+: Java 기초 / 코테 풀기(49문제) -> 과제(20문제 풀기)
 
 [15일차(2월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week/15Day)
 : Java 기초 / 코테 풀기 (30문제)  -> 과제 (40 문제 풀기 주말 포함)
@@ -66,3 +66,5 @@ LG U+ 유레카 프론트엔드 비대면
 [16일차(2월 17일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/16Day)
 : 정렬 알고리즘 / 코테 풀기 (30문제) -> 과제(20문제 풀기)
 
+[17일차(2월 18일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/17Day)
+: 정렬 알고리즘 / 코테 풀기 (11문제) -> 과제(20문제 풀기)

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class twenty {
     public int solution(String[] babbling) {
         String[] sound = {"aya", "ye", "woo", "ma"};
