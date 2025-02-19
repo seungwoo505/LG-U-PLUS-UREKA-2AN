@@ -67,4 +67,7 @@ LG U+ 유레카 프론트엔드 비대면
 : 정렬 알고리즘 / 코테 풀기 (30문제) -> 과제(20문제 풀기)
 
 [17일차(2월 18일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/17Day)
-: 순열 조합 부분집합 알고리즘 / 코테 풀기 (11문제) -> 과제(20문제 풀기)
+: 완전 탐색 알고리즘 / 코테 풀기 (11문제) -> 과제(20문제 풀기)
+
+[18일차(2월 19일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/18Day)
+: Tree 알고리즘
