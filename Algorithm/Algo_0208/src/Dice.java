@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class DIce {
+public class Dice {
     public static void main(String[] args) {
         try{
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
