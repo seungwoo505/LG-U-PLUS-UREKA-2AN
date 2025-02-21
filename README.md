@@ -73,4 +73,7 @@ LG U+ 유레카 프론트엔드 비대면
 : Tree 알고리즘
 
 [19일차(2월 20일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/19Day)
-: BFS / DFS
+: BFS / DFS 
+
+[20일차(2월 21일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/20Day)
+: 그래프(가중치가 없는 그래프, BFS)
