@@ -83,3 +83,5 @@ LG U+ 유레카 프론트엔드 비대면
 [21일차(2월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/21Day)
 : 그래프(가중치가 있는 그래프, MST(크루스칼, 트림, 다익스트라)) / 20일차 과제 풀기(몰랐어서 오늘 품) / LV.2 2문제
 
+[22일차(2월 25일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/22Day)
+: 그래프 응용 (백트래킹, N-Queens, 위상정렬)
