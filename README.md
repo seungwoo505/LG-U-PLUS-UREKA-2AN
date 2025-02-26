@@ -85,3 +85,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [22일차(2월 25일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/22Day)
 : 그래프 응용 (백트래킹, N-Queens, 위상정렬)
+
+[23일차(2월 26일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/23Day)
+: git 특강( 대면 )
