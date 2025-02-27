@@ -39,13 +39,13 @@ git의 로그를 확인할 수 있다.
 
 oneline은 한줄로 요약해서 보여준다.
 
-branch는 모든 branch를 표시 ( branch가 없을 시에는 기준 branch만 표시 )
+branch는 모든 branches를 표시 ( branch가 없을 시에는 기준 branch만 표시 )
 
 graph는 가지치기를 하듯이 보기 편하게 만들어준다.
 
 ```
 
-git log --oneline --branch --graph
+git log --oneline --branches --graph
 
 ```
 
