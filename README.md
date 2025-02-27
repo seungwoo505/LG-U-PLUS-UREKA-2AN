@@ -88,3 +88,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [23일차(2월 26일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/23Day)
 : git 특강( 대면 )
+
+[24일차(2월 27일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/24Day)
+: git 특강( 대면 )
