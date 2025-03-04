@@ -6,6 +6,11 @@ DROP DATABASE TESTDB; -- DB 제거
 
 USE UREKA; -- 해당 스키마로 변경
 
+-- user 생성
+CREATE USER 'ureca'@'%' IDENTIFIED BY 'ureca';
+GRANT ALL PRIVILEGES ON *.* TO 'ureca'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
 -- 스키마에 테이블 생성
 CREATE TABLE PRODUCT(
 NAME VARCHAR(50),
