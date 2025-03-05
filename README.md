@@ -99,3 +99,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [26일차(3월 04일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/26Day)
 : DB
+
+[27일차(3월 05일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/27Day)
+: DB
