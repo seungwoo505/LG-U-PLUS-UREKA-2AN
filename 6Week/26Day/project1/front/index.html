@@ -21,7 +21,14 @@
 
 	<div class="px-3 py-1 bg-info text-white text-center d-flex justify-content-between">
 		<span>effect!</span> 	
-		<span id="loginSpan"></span>
+		<span id="loginSpan">
+			<a class="nav-link active" href="#"
+					data-bs-toggle="modal" data-bs-target="#loginModal">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" width="24" height="24">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+				</svg>
+			</a>
+		</span>
 	</div>
 
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -78,6 +85,43 @@
 					</div>
 					
 					<button type="submit" class="btn btn-primary" id="signupBtn">가입</button>
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger"
+						data-bs-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- loginModal -->
+	<div class="modal" id="loginModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">로그인</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="mb-3">
+						<label for="email" class="form-label">Email:</label> <input
+							type="email" class="form-control" id="loginEmail"
+							placeholder="Enter email" name="email">
+					</div>
+					<div class="mb-3">
+						<label for="pw" class="form-label">Password:</label> <input
+							type="password" class="form-control" id="loginPw"
+							placeholder="Enter password" name="pw">
+					</div>
+					
+					<button type="submit" class="btn btn-primary" id="loginBtn">로그인</button>
 				</div>
 
 				<!-- Modal footer -->
