@@ -109,3 +109,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [28일차(3월 06일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/28Day)
 : CORS
+
+[29일차(3월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/29Day)
+: MyBatis / Connection Pool
