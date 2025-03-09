@@ -86,3 +86,9 @@ mapper/*.xml 로 설정을 한 것이다.
 4. 다음 사용자가 요청하면 새로 불러오는 것이 아닌 Pool에서 반환된 Connection을 재사용
 5. 사용자가 많아지면 더 많은 Connection Pool을 생성
 6. 사용자가 적어질 경우 유후 Connection을 제거하여 리소스 절약
+
+주말 공부
+
+[MiniProject](https://github.com/seungwoo505/miniBack)에 대해 간략하게 작성해보았다.
+
+더 상세하게 만들어두고싶었으나 주제가 아직 확정된 것이 아니기 때문에 일단 범용적인 기능만 구현을 해두었다.
