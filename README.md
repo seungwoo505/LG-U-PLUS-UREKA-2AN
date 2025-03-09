@@ -9,6 +9,9 @@ LG U+ 유레카 프론트엔드 비대면
 - [알고또알고](https://github.com/seungwoo505/eureka-algorithm-study) (알고리즘 / CS 공부)
 - 복습스터디 (프론트엔드 공부)
 
+개인 알고리즘 공부 :
+- [Algorithm](https://github.com/seungwoo505/Algorithm)
+
 ---------------------------------- 주차별 학습 요약 ----------------------------------
 
 ----------------------------------      [1주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week)      -----------------------------------
