@@ -118,5 +118,5 @@ LG U+ 유레카 프론트엔드 비대면
 
 ----------------------------------      [7주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week)      -----------------------------------
 
-[30일차(3월 10일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/26Day)
+[30일차(3월 10일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/30Day)
 : xss / 미니프로젝트 페어 발표
