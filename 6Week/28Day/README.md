@@ -28,6 +28,7 @@ HttpServletRequest에서 해더 부분에 Session이 존재하지않다고(null)
     - [통합된 서버](https://github.com/seungwoo505/cafe/tree/feat/login)에서 자세히 확인할 수 있다.
     - 쉽게 말하자면 프론트에 있는 것을 백서버에 함께 등록하면되는 것이다.
 
-2. 프론트단에서도 CORS처리해주기
-    - 백에서 했던 처리를 프론트에서 해주는 것이다.
-    - 자세한 것은 [프론트 처리](https://github.com/seungwoo505/project1)에서 확인할 수 있다.
+2. JWT와 같이 토큰으로 관리하기
+    - 프론트에서 백엔드로 보내는게 정책 상 금지되어있어 직접 담아 보내야한다.
+    - 그래서 토큰을 따로 만들어 관리를 해야한다.
+    - 자세한 것은 [프론트 처리](https://github.com/seungwoo505/project2)에서 확인할 수 있다.
