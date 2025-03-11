@@ -120,3 +120,9 @@ LG U+ 유레카 프론트엔드 비대면
 
 [30일차(3월 10일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/30Day)
 : xss / 미니프로젝트 페어 발표
+
+[31일차(3월 11일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/31Day)
+: Token으로 로그인 제어 / 개인 자습 시간(장바구니 만들기)
+
+[32일차(3월 12일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/32Day)
+: 취업특강
