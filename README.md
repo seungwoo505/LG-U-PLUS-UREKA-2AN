@@ -126,3 +126,10 @@ LG U+ 유레카 프론트엔드 비대면
 
 [32일차(3월 12일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/32Day)
 : 취업특강
+
+[33일차(3월 13일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/33Day)
+: 미니프로젝트(파일 업로드, 다운로드, 암호화)
+
+[34일차(3월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/34Day)
+: 미니프로젝트(파일 URL 공유)
+
