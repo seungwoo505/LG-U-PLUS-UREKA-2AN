@@ -133,3 +133,13 @@ LG U+ 유레카 프론트엔드 비대면
 [34일차(3월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/34Day)
 : 미니프로젝트(파일 URL 공유)
 
+----------------------------------      [8주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week)      -----------------------------------
+
+[35일차(3월 17일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/35Day)
+: OAuth 인증(카카오, 네이버, 구글 간편 로그인 기능)
+
+[36일차(3월 18일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/36Day)
+: 미니프로젝트(파일 삭제, 파일 업데이트 등등) 기능 개발
+
+[37일차(3월 19일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/37Day)
+: 미니프로젝트(프론트 개발)
