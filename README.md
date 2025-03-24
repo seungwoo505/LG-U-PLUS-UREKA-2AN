@@ -143,3 +143,14 @@ LG U+ 유레카 프론트엔드 비대면
 
 [37일차(3월 19일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/37Day)
 : 미니프로젝트(프론트 개발)
+
+[38일차(3월 20일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/38Day)
+: 미니프로젝트(프론트 개발)
+
+[39일차(3월 21일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/39Day)
+: 미니프로젝트(발표)
+
+----------------------------------      [9주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week)      -----------------------------------
+
+[40일차(3월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/40Day)
+: CX(개념)
