@@ -155,3 +155,11 @@ LG U+ 유레카 프론트엔드 비대면
 [40일차(3월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/40Day)
 : CX(개념) - 이론 파트
 
+[41일차(3월 25일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/41Day)
+: 서비스 디자인 기획 / 페르소나
+
+[42일차(3월 26일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/42Day)
+: 시나리오 작성 / 플로우 차트
+
+[43일차(3월 27일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/43Day)
+: 와이어프레임
