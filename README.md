@@ -169,3 +169,8 @@ LG U+ 유레카 프론트엔드 비대면
 [44일차(3월 31일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/44Day)
 : CX 복습
 
+[45일차(4월 01일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/45Day)
+: React 기초(React 설치 및 실행, 기본 문법)
+
+[46일차(4월 02일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/46Day)
+: React 기초(State)
