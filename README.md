@@ -180,5 +180,5 @@ LG U+ 유레카 프론트엔드 비대면
 
 ---------------------------------- [11주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/11Week) -----------------------------------
 
-[48일차(4월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/48Day)
+[48일차(4월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/11Week/48Day)
 : html, css 기초 공부
