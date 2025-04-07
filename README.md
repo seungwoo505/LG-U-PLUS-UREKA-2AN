@@ -4,17 +4,18 @@ LG U+ 유레카 프론트엔드 비대면
 
 교육 과정은 2025.01.20 ~ 2025.08.12 ( 205일( 6개월 24일 ) ) 동안 학습하게 된다.
 
+스터디 :
 
-스터디 : 
 - [알고또알고](https://github.com/seungwoo505/eureka-algorithm-study) (알고리즘 / CS 공부)
 - 복습스터디 (프론트엔드 공부)
 
 개인 알고리즘 공부 :
+
 - [Algorithm](https://github.com/seungwoo505/Algorithm)
 
 ---------------------------------- 주차별 학습 요약 ----------------------------------
 
-----------------------------------      [1주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week)      -----------------------------------
+---------------------------------- [1주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week) -----------------------------------
 
 [1일차(1월 20일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/1Day)
 : Web의 역사 / html 기초
@@ -27,14 +28,13 @@ LG U+ 유레카 프론트엔드 비대면
 
 [자기소개](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/Introduction)
 
-
 [4일차(1월 23일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/4Day)
 : Bootstrap / js 기초
 
 [5일차(1월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/1Week/5Day)
 : js 기초
 
-----------------------------------      [2주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week)      -----------------------------------
+---------------------------------- [2주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week) -----------------------------------
 
 [6일차(2월 03일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/6Day)
 : js 기초 / Spring Boot 맛보기
@@ -51,7 +51,7 @@ LG U+ 유레카 프론트엔드 비대면
 [10일차(2월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/2Week/10Day)
 : Java 기초
 
-----------------------------------      [3주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week)      -----------------------------------
+---------------------------------- [3주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week) -----------------------------------
 
 [11일차(2월 10일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week/11Day)
 : Java 기초
@@ -66,9 +66,9 @@ LG U+ 유레카 프론트엔드 비대면
 : Java 기초 / 코테 풀기(49문제) -> 과제(20문제 풀기)
 
 [15일차(2월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/3Week/15Day)
-: Java 기초 / 코테 풀기 (30문제)  -> 과제 (40 문제 풀기 주말 포함)
+: Java 기초 / 코테 풀기 (30문제) -> 과제 (40 문제 풀기 주말 포함)
 
-----------------------------------      [4주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week)      -----------------------------------
+---------------------------------- [4주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week) -----------------------------------
 
 [16일차(2월 17일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/16Day)
 : 정렬 알고리즘 / 코테 풀기 (30문제) -> 과제(20문제 풀기)
@@ -80,12 +80,12 @@ LG U+ 유레카 프론트엔드 비대면
 : Tree 알고리즘
 
 [19일차(2월 20일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/19Day)
-: BFS / DFS 
+: BFS / DFS
 
 [20일차(2월 21일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/4Week/20Day)
 : 그래프(가중치가 없는 그래프, BFS)
 
-----------------------------------      [5주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week)      -----------------------------------
+---------------------------------- [5주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week) -----------------------------------
 
 [21일차(2월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/21Day)
 : 그래프(가중치가 있는 그래프, MST(크루스칼, 트림, 다익스트라)) / 20일차 과제 풀기(몰랐어서 오늘 품) / LV.2 2문제
@@ -102,7 +102,7 @@ LG U+ 유레카 프론트엔드 비대면
 [25일차(2월 28일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/5Week/25Day)
 : DB
 
-----------------------------------      [6주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week)      -----------------------------------
+---------------------------------- [6주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week) -----------------------------------
 
 [26일차(3월 04일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/26Day)
 : DB
@@ -116,7 +116,7 @@ LG U+ 유레카 프론트엔드 비대면
 [29일차(3월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/6Week/29Day)
 : MyBatis / Connection Pool
 
-----------------------------------      [7주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week)      -----------------------------------
+---------------------------------- [7주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week) -----------------------------------
 
 [30일차(3월 10일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/30Day)
 : xss / 미니프로젝트 페어 발표
@@ -133,7 +133,7 @@ LG U+ 유레카 프론트엔드 비대면
 [34일차(3월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/7Week/34Day)
 : 미니프로젝트(파일 URL 공유)
 
-----------------------------------      [8주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week)      -----------------------------------
+---------------------------------- [8주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week) -----------------------------------
 
 [35일차(3월 17일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/35Day)
 : OAuth 인증(카카오, 네이버, 구글 간편 로그인 기능)
@@ -150,7 +150,7 @@ LG U+ 유레카 프론트엔드 비대면
 [39일차(3월 21일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/8Week/39Day)
 : 미니프로젝트(발표)
 
-----------------------------------      [9주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week)      -----------------------------------
+---------------------------------- [9주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week) -----------------------------------
 
 [40일차(3월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/40Day)
 : CX(개념) - 이론 파트
@@ -164,7 +164,7 @@ LG U+ 유레카 프론트엔드 비대면
 [43일차(3월 27일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/9Week/43Day)
 : 와이어프레임
 
-----------------------------------      [10주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week)      -----------------------------------
+---------------------------------- [10주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week) -----------------------------------
 
 [44일차(3월 31일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/44Day)
 : CX 복습
@@ -178,7 +178,7 @@ LG U+ 유레카 프론트엔드 비대면
 [47일차(4월 03일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/47Day)
 : React 복습
 
-----------------------------------      [11주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/11Week)      -----------------------------------
+---------------------------------- [11주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/11Week) -----------------------------------
 
 [48일차(4월 07일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/10Week/48Day)
-: React 
+: html, css 기초 공부
