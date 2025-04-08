@@ -1,6 +1,6 @@
 # React 복습
 
-<detail>
+<details>
 <summary>
 
 ## jsx와 js는 왜 구별해서 사용하는가.
@@ -36,9 +36,9 @@
   구분이 되어있지않다면 파일을 일일이 들어가 확인을 해야하는 불편함이 있기 때문에 구분을 하는 것이
   관리나 일의 능률에서 훨씬 뛰어나다.
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## jsx문법 요약
@@ -168,9 +168,9 @@ const button = <button onClick={handleClick}>클릭하세요</button>;
 - JSX는 React의 핵심 문법으로,
   HTML과 javaScript를 자연스럽게 결합하여 UI 작성을 직관적으로 만들어준다.
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## JavaScript 표현식
@@ -238,16 +238,16 @@ const element = (
   단, if문이나 for 루프와 같은 문장은 표현식을 넣을 수 없다.
   (그래서 삼항연산식이나 map, forEach 와 같이 대신 할 수 있는 것을 이용하여 사용)
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## css 적용 방법
 
 </summary>
 
-    <detail>
+    <details>
     <summary>
     전역 css 적용방법
     </summary>
@@ -262,13 +262,13 @@ const element = (
 
     ```
 
-    </detail>
+    </details>
 
-    <detail>
+    <details>
     <summary>
     컴포넌트에만 css 적용방법
     </summary>
-        <detail>
+        <details>
         <summary>
         css Modules 사용
         </summary>
@@ -297,9 +297,9 @@ const element = (
 
         ```
 
-        </detail>
+        </details>
 
-        <detail>
+        <details>
         <summary>
         Styled-Components 사용
         </summary>
@@ -324,9 +324,9 @@ const element = (
 
         ```
 
-        </detail>
+        </details>
 
-        <detail>
+        <details>
         <summary>
         어떤 방법을 선택해야한가?
         </summary>
@@ -335,10 +335,10 @@ const element = (
             - CSS Modules : 컴포넌트 별 스타일링이 필요하지만 별도 라이브러리 없이 사용하고 싶을 때
             - Styled-Components : 동적 스타일링이 많거나 컴포넌트와 스타일을 밀접하게 연결하고 싶을 때
 
-        </detail>
-    </detail>
+        </details>
+    </details>
 
-    <detail>
+    <details>
     <summary>
     style 속성을 요소에 직접 적용하는 인라인 스타일 적용하기
     </summary>
@@ -428,11 +428,11 @@ const element = (
     React에서 인라인 스타일을 사용하면 스타일링이 간편하지만, 대규모에서는 CSS Modules나 Styled-Components와 같은 접근 방식이
     유지보수 측면에서 더 좋을 수 있다.
 
-    </detail>
+    </details>
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## component 생성 방법 및 호출 방법
@@ -455,9 +455,9 @@ export default NewComponenet
 
 ```
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## useState()
@@ -502,9 +502,9 @@ setCount(prevCount => prevCount + 1);
 
     useState는 컴포넌트가 사용자 입력, 데이터 로딩, UI 상호작용과 같은 변화에 반응할 수 있게 해주는 핵심 기능
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## array, object state 변경 시 주의 사항
@@ -629,9 +629,9 @@ return (
 
 ```
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## Props 전송
@@ -765,7 +765,7 @@ return <div>{data}</div>;
 }
 
 ```
-<detail>
+<details>
 <summary>
 Props 드릴링이란?
 </summary>
@@ -813,9 +813,10 @@ Props 드릴링 방지법
     2. 상태 관리 라이브러리 활용 - Redux, Zustand, Recoil, Jotai 등의 상태 관리 라이브러리를 사용하여 전역 상태 관리
     3. 컴포넌트 합성 사용 - 자식 컴포넌트를 Props로 전달하여 계층 구조 평면화
 
-</detail>
+</details>
 
 함수 Props 전달하기
+
 ```
 
 function TodoApp() {
@@ -873,9 +874,9 @@ PS. 내가 전에 Props 드릴링 때문에 상태 관리가 어려울 것 같�
 
 상세한 부분은 [해당 프로젝트](https://github.com/seungwoo505/Portfolio)에서 확인이 가능하다.
 
-</detail>
+</details>
 
-<detail>
+<details>
 <summary>
 
 ## 배열과 함께 사용하는 고차함수
@@ -1061,5 +1062,5 @@ console.log(element);
 이 외에도 구현 방식에 따라 다양한 사용자 정의 고차함수를 만들 수 있다.
 lodash나 Ramda와 같은 라이브러리들은 추가적인 유용한 고차함수들을 제공
 
-</detail>
+</details>
 ```
