@@ -247,188 +247,193 @@ const element = (
 
 </summary>
 
-    <details>
-    <summary>
-    전역 css 적용방법
-    </summary>
-    ```
+<details>
+<summary>
+전역 css 적용방법
+</summary>
 
-    // main.js 또는 App.js에서
-    import './styles.css';
+```
 
-    function App() {
-        return <div className="app">전역 스타일 적용됨</div>;
+// main.js 또는 App.js에서
+import './styles.css';
+
+function App() {
+    return <div className="app">전역 스타일 적용됨</div>;
+}
+
+```
+
+</details>
+
+<details>
+<summary>
+컴포넌트에만 css 적용방법
+</summary>
+
+<details>
+<summary>
+css Modules 사용
+</summary>
+
+파일명을 [컴포넌트 이름].module.css 형식으로 저장하고 사용
+
+```
+
+/* Button.module.css */
+.button {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+}
+
+```
+
+```
+
+// Button.jsx
+import styles from './Button.module.css';
+
+function Button() {
+    return <button className={styles.button}>클릭</button>;
+}
+
+```
+
+</details>
+
+<details>
+<summary>
+Styled-Components 사용
+</summary>
+
+CSS-in-JS 방식으로, 컴포넌트와 스타일을 한 파일에 작성
+
+```
+
+import styled from 'styled-components';
+
+const StyledButton = styled.button`
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    &:hover {
+        background-color: darkblue;
     }
+`;
 
-    ```
+function Button() {
+    return <StyledButton>클릭</StyledButton>;
+}
 
-    </details>
+```
 
-    <details>
-    <summary>
-    컴포넌트에만 css 적용방법
-    </summary>
-        <details>
-        <summary>
-        css Modules 사용
-        </summary>
+</details>
 
-        파일명을 [컴포넌트 이름].module.css 형식으로 저장하고 사용
+<details>
+<summary>
+어떤 방법을 선택해야한가?
+</summary>
 
-        ```
+- 전역 CSS : 리셋, 기본 포트, 색상 변수 등 애플리케이션 전체에 적용할 스타일
+- CSS Modules : 컴포넌트 별 스타일링이 필요하지만 별도 라이브러리 없이 사용하고 싶을 때
+- Styled-Components : 동적 스타일링이 많거나 컴포넌트와 스타일을 밀접하게 연결하고 싶을 때
 
-        /* Button.module.css */
-        .button {
-            padding: 8px 16px;
-            background-color: blue;
-            color: white;
-        }
+</details>
 
-        ```
+</details>
 
-        ```
+<details>
+<summary>
+style 속성을 요소에 직접 적용하는 인라인 스타일 적용하기
+</summary>
 
-        // Button.jsx
-        import styles from './Button.module.css';
+```
 
-        function Button() {
-            return <button className={styles.button}>클릭</button>;
-        }
+// 기본 스타일
+function MyComponent() {
+    return (
+        <div style={{ color: 'blue', fontSize: '16px', marginTop: '20px' }}>
+        스타일이 적용된 텍스트입니다
+        </div>
+    );
+}
 
-        ```
+// 조건부 스타일
+/*
+활용 방법 :
+    예를 들어 숨겨진 블럭이 클릭을 하면 나타나게 해야할 경우
+    평상 시엔 false로 두다가 버튼 클릭 시 true로 바뀌어 표시가 되게 하는 등으로 활용이 가능할거같다.
+*/
+function Button({ isPrimary }) {
+    // 변수로 스타일 지정
+    const buttonStyle = {
+        padding: '10px 15px',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer',
+        backgroundColor: isPrimary ? '#007bff' : '#6c757d',
+        color: 'white'
+    };
 
-        </details>
+    return (
+        <button style={buttonStyle}>
+        {isPrimary ? '확인' : '취소'}
+        </button>
+    );
+}
 
-        <details>
-        <summary>
-        Styled-Components 사용
-        </summary>
+// 스타일 병합 -> 딱히 쓸일은 많아보이지는 않지만 JSON 형식이다보니 합하는 것이 가능
+// 활용 방법은 아마 같은 스타일을 적용해야하지만 일부가 다를 경우 두개 만들고 하나는 합하는 형식? <- 이런 상황이 많지는않을거같다...
+function Card({ customStyle }) {
+    const baseStyle = {
+        padding: '20px',
+        margin: '10px',
+        borderRadius: '5px',
+        boxShadow: '0 2px 5px rgba(0,0,0,0.1)'
+    };
 
-        CSS-in-JS 방식으로, 컴포넌트와 스타일을 한 파일에 작성
-        ```
+    // 기본 스타일과 사용자 정의 스타일 병합
+    const combinedStyle = { ...baseStyle, ...customStyle };
 
-        import styled from 'styled-components';
+    return (
+        <div style={combinedStyle}>
+        <h2>카드 제목</h2>
+        <p>카드 내용</p>
+        </div>
+    );
+}
 
-        const StyledButton = styled.button`
-            padding: 8px 16px;
-            background-color: blue;
-            color: white;
-            &:hover {
-                background-color: darkblue;
-            }
-        `;
+// 동적 스타일 계산
+// 활용 방법 : 지속적으로 바뀌어야하는 경우(반응형)에 변수를 스타일에 넣어 즉각적으로 변화되게 한다. --> 즉 반응형을 위해
+function ProgressBar({ percent }) {
+    const containerStyle = {
+        height: '20px',
+        width: '100%',
+        backgroundColor: '#e0e0e0',
+        borderRadius: '10px',
+        overflow: 'hidden'
+    };
 
-        function Button() {
-            return <StyledButton>클릭</StyledButton>;
-        }
+    const fillerStyle = {
+        height: '100%',
+        width: `${percent}%`,
+        backgroundColor: percent < 30 ? 'red' : percent < 70 ? 'yellow' : 'green',
+        transition: 'width 0.5s ease-in-out'
+    };
 
-        ```
+    return (
+        <div style={containerStyle}>
+        <div style={fillerStyle}></div>
+        </div>
+    );
+}
 
-        </details>
+```
 
-        <details>
-        <summary>
-        어떤 방법을 선택해야한가?
-        </summary>
+React에서 인라인 스타일을 사용하면 스타일링이 간편하지만, 대규모에서는 CSS Modules나 Styled-Components와 같은 접근 방식이
+유지보수 측면에서 더 좋을 수 있다.
 
-            - 전역 CSS : 리셋, 기본 포트, 색상 변수 등 애플리케이션 전체에 적용할 스타일
-            - CSS Modules : 컴포넌트 별 스타일링이 필요하지만 별도 라이브러리 없이 사용하고 싶을 때
-            - Styled-Components : 동적 스타일링이 많거나 컴포넌트와 스타일을 밀접하게 연결하고 싶을 때
-
-        </details>
-    </details>
-
-    <details>
-    <summary>
-    style 속성을 요소에 직접 적용하는 인라인 스타일 적용하기
-    </summary>
-
-    ```
-    // 기본 스타일
-    function MyComponent() {
-        return (
-            <div style={{ color: 'blue', fontSize: '16px', marginTop: '20px' }}>
-            스타일이 적용된 텍스트입니다
-            </div>
-        );
-    }
-
-    // 조건부 스타일
-    /*
-    활용 방법 :
-        예를 들어 숨겨진 블럭이 클릭을 하면 나타나게 해야할 경우
-        평상 시엔 false로 두다가 버튼 클릭 시 true로 바뀌어 표시가 되게 하는 등으로 활용이 가능할거같다.
-    */
-    function Button({ isPrimary }) {
-        // 변수로 스타일 지정
-        const buttonStyle = {
-            padding: '10px 15px',
-            border: 'none',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            backgroundColor: isPrimary ? '#007bff' : '#6c757d',
-            color: 'white'
-        };
-
-        return (
-            <button style={buttonStyle}>
-            {isPrimary ? '확인' : '취소'}
-            </button>
-        );
-    }
-
-    // 스타일 병합 -> 딱히 쓸일은 많아보이지는 않지만 JSON 형식이다보니 합하는 것이 가능
-    // 활용 방법은 아마 같은 스타일을 적용해야하지만 일부가 다를 경우 두개 만들고 하나는 합하는 형식? <- 이런 상황이 많지는않을거같다...
-    function Card({ customStyle }) {
-        const baseStyle = {
-            padding: '20px',
-            margin: '10px',
-            borderRadius: '5px',
-            boxShadow: '0 2px 5px rgba(0,0,0,0.1)'
-        };
-
-        // 기본 스타일과 사용자 정의 스타일 병합
-        const combinedStyle = { ...baseStyle, ...customStyle };
-
-        return (
-            <div style={combinedStyle}>
-            <h2>카드 제목</h2>
-            <p>카드 내용</p>
-            </div>
-        );
-    }
-
-    // 동적 스타일 계산
-    // 활용 방법 : 지속적으로 바뀌어야하는 경우(반응형)에 변수를 스타일에 넣어 즉각적으로 변화되게 한다. --> 즉 반응형을 위해
-    function ProgressBar({ percent }) {
-        const containerStyle = {
-            height: '20px',
-            width: '100%',
-            backgroundColor: '#e0e0e0',
-            borderRadius: '10px',
-            overflow: 'hidden'
-        };
-
-        const fillerStyle = {
-            height: '100%',
-            width: `${percent}%`,
-            backgroundColor: percent < 30 ? 'red' : percent < 70 ? 'yellow' : 'green',
-            transition: 'width 0.5s ease-in-out'
-        };
-
-        return (
-            <div style={containerStyle}>
-            <div style={fillerStyle}></div>
-            </div>
-        );
-    }
-
-    ```
-
-    React에서 인라인 스타일을 사용하면 스타일링이 간편하지만, 대규모에서는 CSS Modules나 Styled-Components와 같은 접근 방식이
-    유지보수 측면에서 더 좋을 수 있다.
-
-    </details>
+</details>
 
 </details>
 
@@ -489,18 +494,20 @@ function Counter() {
 
 useState의 주요 특징 - 상태 변경 시 자동 리렌더링 : setCount룰 호출하면 컴포넌트가 다시 렌더링됩니다. - 이전 상태 참조 : 이전 상태를 기반으로 업데이트할 때는 함수 형태를 사용합니다
 
-````
+```
 setCount(prevCount => prevCount + 1);
 
-        ```
-    - 객체 상태 관리 : 객체 형태의 상태를 관리할 때는 전체 객체를 업데이트를 해야한다.
-        ```
+```
 
-        const [user, setUser] = useState({ name: '홍길동', age: 30 });setUser({ ...user, age: 31 }); // 기존 객체 속성을 유지하면서 age만 변경
+- 객체 상태 관리 : 객체 형태의 상태를 관리할 때는 전체 객체를 업데이트를 해야한다.
 
-        ```
+```
 
-    useState는 컴포넌트가 사용자 입력, 데이터 로딩, UI 상호작용과 같은 변화에 반응할 수 있게 해주는 핵심 기능
+const [user, setUser] = useState({ name: '홍길동', age: 30 });setUser({ ...user, age: 31 }); // 기존 객체 속성을 유지하면서 age만 변경
+
+```
+
+useState는 컴포넌트가 사용자 입력, 데이터 로딩, UI 상호작용과 같은 변화에 반응할 수 있게 해주는 핵심 기능
 
 </details>
 
@@ -515,7 +522,8 @@ React에서 배열과 객체 상태를 변경할 때는 불변성을 지켜야�
 즉, 원본을 직접 수정하지 않고 새로운 복사본을 만들어 변경해야한다.
 
 1. 배열(Array) 상태 변경하기
-````
+
+```
 
 import React, { useState } from 'react';
 
@@ -545,12 +553,14 @@ i === index ? newText : todo
 return (
 
 <div>{/_ UI 코드 _/}</div>
+
 );
 }
 
 ```
 
 2. 객체(Object) 상태 변경하기
+
 ```
 
 import React, { useState } from 'react';
@@ -599,6 +609,7 @@ return (
 ```
 
 3. 배열 속 객체 변경하기
+
 ```
 
 import React, { useState } from 'react';
@@ -645,6 +656,7 @@ Props는 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달하
 마치 함수의 인자처럼 작동하며 읽기 전용이다.
 
 기본 Props 전달 예시
+
 ```
 
 // 부모 컴포넌트
@@ -765,6 +777,7 @@ return <div>{data}</div>;
 }
 
 ```
+
 <details>
 <summary>
 Props 드릴링이란?
@@ -802,16 +815,9 @@ return <div>{data}</div>;
 
 ```
 
-Props 드릴링 문제점
-    - 드릴링 같은 경우 코드가 복잡해지며(중간 컴포넌트는 필요 없는데 거쳐가야하는 이유로 받고 넘겨야하는 문제)
-    - 데이터 흐름을 찾아야하기 때문에 유지보수가 어렵다.
-    - 또한 Props가 변경될 경우 A, E만 리렌더링이 되어야하는데 B, C, D도 같이 리렌더링이 된다.
-    - 그리고 구조 변경이 어려워진다.(바뀌면 다 같이 변경이 되야하기 때문에 조금만 바뀌어도 전부 바꿔야하기에 일이 커진다.)
+Props 드릴링 문제점 - 드릴링 같은 경우 코드가 복잡해지며(중간 컴포넌트는 필요 없는데 거쳐가야하는 이유로 받고 넘겨야하는 문제) - 데이터 흐름을 찾아야하기 때문에 유지보수가 어렵다. - 또한 Props가 변경될 경우 A, E만 리렌더링이 되어야하는데 B, C, D도 같이 리렌더링이 된다. - 그리고 구조 변경이 어려워진다.(바뀌면 다 같이 변경이 되야하기 때문에 조금만 바뀌어도 전부 바꿔야하기에 일이 커진다.)
 
-Props 드릴링 방지법
-    1. Context API 활용 - 중간 컴포넌트를 거치지않고 데이터 공유 가능
-    2. 상태 관리 라이브러리 활용 - Redux, Zustand, Recoil, Jotai 등의 상태 관리 라이브러리를 사용하여 전역 상태 관리
-    3. 컴포넌트 합성 사용 - 자식 컴포넌트를 Props로 전달하여 계층 구조 평면화
+Props 드릴링 방지법 1. Context API 활용 - 중간 컴포넌트를 거치지않고 데이터 공유 가능 2. 상태 관리 라이브러리 활용 - Redux, Zustand, Recoil, Jotai 등의 상태 관리 라이브러리를 사용하여 전역 상태 관리 3. 컴포넌트 합성 사용 - 자식 컴포넌트를 Props로 전달하여 계층 구조 평면화
 
 </details>
 
@@ -1059,8 +1065,8 @@ console.log(element);
 }
 
 ```
+
 이 외에도 구현 방식에 따라 다양한 사용자 정의 고차함수를 만들 수 있다.
 lodash나 Ramda와 같은 라이브러리들은 추가적인 유용한 고차함수들을 제공
 
 </details>
-```
