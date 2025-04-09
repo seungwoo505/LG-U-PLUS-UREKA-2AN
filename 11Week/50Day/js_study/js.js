@@ -62,8 +62,14 @@ numbers3.sort((a, b) => a - b);
 
 console.log(numbers3);
 
+numbers3.sort((a, b) => b - a);
+
+console.log(numbers3);
+
 //findIndex() - 조건을 만족하는 첫 번째 요소의 인덱스 반환
-const fruits2 = ['사과', '바나나', '오랜지', '포도'];
+const fruits2 = ['사과', '바나나', '오렌지', '포도'];
 const index = fruits2.findIndex(fruit => fruit === '오렌지');
+const index2 = fruits2.findIndex(fruit => fruit === '수박');
 
 console.log(index);
+console.log(index2);
