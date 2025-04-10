@@ -1,0 +1,22 @@
+.card{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    height: 80%;
+
+    h2, p{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    img{
+        width: 50%;
+    }
+}
