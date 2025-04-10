@@ -2,6 +2,7 @@ import React from 'react'
 import style from '../css/Button.module.css';
 
 const Button = ({winner, setChoice, reset}) => {
+    const rsp = ["rock", "scissors", "paper"];
     const choice = (e) => {
         if(winner === "?"){
             setChoice(e.target.alt);
@@ -11,6 +12,12 @@ const Button = ({winner, setChoice, reset}) => {
     }
   return (
     <div className={style.button}>
+        {rsp.map((e) => {
+            <button onClick={choice}>
+                <img src={`./${e}.png`} alt={e}/>
+                <p>{e === "rock" ? "바위" : e === "scissors" ? "" : ""}</p>
+            </button>
+        })}
         <button onClick={choice}>
             <img src="./scissors.png" alt="scissors" />
             <p>가위</p>

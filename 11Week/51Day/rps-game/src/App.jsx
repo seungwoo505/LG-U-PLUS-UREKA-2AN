@@ -38,8 +38,8 @@ function App() {
   }, [choice])
 
   return (
-    <>
-      <header className={style.header}>
+    <div className={style.container}>
+      <header>
         <h1>가위바위보 게임</h1>
       </header>
       <main className={style.main}>
@@ -53,7 +53,7 @@ function App() {
           컴퓨터는 랜덤으로 선택합니다.
         </p>
       </footer>
-    </>
+    </div>
   )
 }
 
