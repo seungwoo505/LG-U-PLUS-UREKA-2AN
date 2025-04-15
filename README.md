@@ -194,3 +194,8 @@ LG U+ 유레카 프론트엔드 비대면
 
 [52일차(4월 11일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/11Week/52Day)
 : React Router
+
+---------------------------------- [12주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week) -----------------------------------
+
+[53일차(4월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/53Day)
+: React 복습
