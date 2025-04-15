@@ -198,4 +198,7 @@ LG U+ 유레카 프론트엔드 비대면
 ---------------------------------- [12주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week) -----------------------------------
 
 [53일차(4월 14일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/53Day)
-: React 복습
+: React 복습(쇼핑몰 만들어보기) / useLocation
+
+[54일차(4월 15일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/54Day)
+: Lighthouse(웹 성능 최적화 도구) / 성능 향상을 위한 최적화 작업 예시
