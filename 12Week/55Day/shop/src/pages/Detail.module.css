@@ -1,0 +1,49 @@
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(330px, 1fr));
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .textWrap{
+        padding-left: var(--fs64);
+        display: flex;
+        flex-direction: column;
+
+        .title, .price{
+            margin-bottom: var(--fs33);
+        }
+
+        .cart{
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            margin-top: var(--fs33);
+
+            & > *{
+                border : 1px solid red;
+            }
+
+            .count{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: var(--fs20);
+                padding: var(--fs8);
+                margin-right: var(--fs16);
+
+                & > span{
+                    cursor: pointer;
+                }
+            }
+
+            .add{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

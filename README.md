@@ -202,3 +202,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [54일차(4월 15일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/54Day)
 : Lighthouse(웹 성능 최적화 도구) / 성능 향상을 위한 최적화 작업 예시
+
+[55일차(4월 16일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/55Day)
+: 스켈레톤 UI
