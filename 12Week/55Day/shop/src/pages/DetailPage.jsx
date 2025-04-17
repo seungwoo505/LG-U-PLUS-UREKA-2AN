@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { useLocation}  from 'react-router-dom';
+import { useParams }  from 'react-router-dom';
 import { getDetailData } from '../api/DetailApi';
 import style from './Detail.module.css';
 
 const DetailPage = () => {
-  const location = useLocation();
+  const params = useParams();
   const [product, setProduct] = useState([]);
   const [count, setCount] = useState(1);
 
@@ -13,18 +13,14 @@ const DetailPage = () => {
     else setCount((prev) => state === "-" ? prev - 1 : prev + 1 );
   };
 
-  const keyEvent = (e) => {
-    console.log(e);
-  }
-
   useEffect(() => {
     const fetchDetail = async () => {
-      const response = await getDetailData(location.pathname.split('/')[2]);
+      const response = await getDetailData(params.productId);
 
       setProduct(response);
     }
     fetchDetail();
-  }, [location]);
+  }, []);
 
   return (
     <main>

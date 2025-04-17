@@ -1,0 +1,75 @@
+main > * {
+    margin-bottom: var(--fs33);
+  }
+  .detailCon {
+    display: flex;
+    gap: var(--fs33);
+  }
+  
+  .imgWrap {
+    border-radius: var(--fs16);
+    overflow: hidden;
+    width: calc(55% - var(--fs16));
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  .discount {
+    font-size: var(--fs12);
+    position: absolute;
+    top: var(--fs20);
+    left: var(--fs20);
+    background-color: var(--light-colors-accent-light);
+    border-radius: var(--fs8);
+    padding: var(--fs8) var(--fs12);
+    color: var(--light-colors-white-light);
+  }
+  
+  .imgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .infoWrap {
+    flex: 1;
+    padding: var(--fs16) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs16);
+  }
+  .title {
+    font-size: var(--fs26);
+  }
+  .price {
+    font-weight: bold;
+    color: var(--dark-colors-accent-dark);
+  }
+  
+  .category {
+    font-size: var(--fs12);
+  }
+  
+  .btnWrap {
+    display: flex;
+    gap: var(--fs16);
+  }
+  .counterArea {
+    background-color: #dcdbdb;
+    border-radius: var(--fs8);
+  }
+  .counterArea button {
+    border: none;
+    outline: none;
+    padding: var(--fs12) var(--fs20);
+    font-size: var(--fs16);
+    background-color: transparent;
+  }
+  .counterArea span {
+    display: inline-block;
+    padding: var(--fs12);
+  }
+  .addBtn {
+    flex: 1;
+    border-radius: var(--fs8);
+    border: 1px solid var(--dark-colors-accent-dark);
+  }

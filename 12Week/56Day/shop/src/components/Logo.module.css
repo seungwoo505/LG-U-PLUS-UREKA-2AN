@@ -1,0 +1,15 @@
+.logo {
+    width: 200px;
+
+    path {
+        transition: 0.3s;
+    }
+
+    &:hover #path0{
+        fill: #a18a68;
+    }
+
+    &:hover #path1{
+        fill : black;
+    }
+}

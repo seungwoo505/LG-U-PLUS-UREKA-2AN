@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Default from "./layout/Default";
 import { lazy } from "react";
 import DetailPage from "./pages/DetailPage";
+import { detailPageLoader } from "./loaders/productsLoaders";
 
 const MainPage = lazy(() => import('./pages/MainPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
@@ -44,13 +45,10 @@ const router = createBrowserRouter([
 
             {
                 path : '/detail/:productId',
-                element : <DetailPage />
+                element : <DetailPage />,
+                loader : detailPageLoader
             }
         ]
-    },
-    {
-        path : '*',
-        element : <NotFound />
     }
 ]);
 
