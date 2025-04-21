@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import style from './Modal.module.css';
 import { formmatCurrency } from '@/utils/features';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { addToCart } from '@/api/cartApi';
 
 const Modal = ({product, count, closeModal}) => {

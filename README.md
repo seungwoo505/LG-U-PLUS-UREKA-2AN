@@ -205,3 +205,14 @@ LG U+ 유레카 프론트엔드 비대면
 
 [55일차(4월 16일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/55Day)
 : 스켈레톤 UI
+
+[56일차(4월 17일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/56Day)
+: 디바운싱과 스로틀링 그리고 프록시
+
+[57일차(4월 18일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/12Week/57Day)
+: 상품 리스트 put
+
+---------------------------------- [13주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week) -----------------------------------
+
+[58일차(4월 21일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/58Day)
+: React 복습(쇼핑몰 만들어보기) / useLocation
