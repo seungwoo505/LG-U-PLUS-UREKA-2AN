@@ -1,0 +1,22 @@
+.paginationArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--fs8);
+    margin: var(--fs33) 0;
+
+    button{
+        border: none;
+        outline: none;
+        background: var(--light-colors-white-light);
+        border-radius: var(--fs8);
+        padding: var(--fs8);
+        transition: 0.3s;
+
+        &:hover,
+        &.active:not(:disabled){
+            background-color: var(--dark-colors-accent-dark);
+            color: var(--dark-colors-white-dark);
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.hd {
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+  padding: var(--fs16) 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+.con {
+  max-width: 1200px;
+  width: calc(100% - 4rem);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnb {
+  display: flex;
+  align-items: center;
+  gap: var(--fs33);
+}
+
+.gnb nav,
+.gnb .icon {
+  display: flex;
+}
+.gnb a {
+  display: block;
+  padding: var(--fs16) var(--fs20);
+}
+.gnb nav a {
+  font-size: var(--fs20);
+  position: relative;
+}
+.gnb nav a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background-color: var(--dark-colors-accent-dark);
+  transition: 0.3s;
+}
+.gnb nav a.active::before,
+.gnb nav a:hover::before {
+  width: 100%;
+}
+
+.gnb .icon a {
+  padding: var(--fs8);
+}
+
+.gnb a:hover,
+.gnb a.active {
+  color: var(--dark-colors-accent-dark);
+}
+.ham {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .gnb {
+    display: flex;
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    border: 2px solid red;
+    top: 0;
+    right: -100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .gnb.on {
+    right: 0;
+  }
+  .gnb nav {
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 70%;
+  }
+  h1 {
+    position: relative;
+    z-index: 10;
+  }
+  .ham {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+  }
+}
