@@ -118,3 +118,92 @@ const params3 = url.searchParams;
 - Edge 12+
 
 구형 브라우저에서는 폴리필(polyfill)을 사용해야 할 수 있다.
+
+6. useSearchParams와 URLSearchParams의 차이
+
+- 접근 방식 비교
+
+  1. navigate + URLSearchParams
+
+  ```
+
+  const params = new URLSearchParams(searchParams)
+  params.set('_page', 1)
+  params.set('_per_page', per_page)
+  navigate(`/shop/?${params}`)
+
+  ```
+
+  2. setSearchParams
+
+  ```
+
+  setSearchParams({ _page: 1, _per_page: per_page })
+
+  ```
+
+- 주요 차이점
+
+  1. 새로운 항목 처리
+
+  - `setSearchParams({_page : 1})`는 다른 모든 쿼리 파라미터를 제거합니다.
+  - `params.set('_page', 1)` 후 `navigate`를 사용하면 기존의 다른 파라미터를 유지한다.
+
+  2. 상세한 제어
+
+  - navigate + URLSearchParams : 쿼리 파라미터 조작에 더 세밀한 제어가 가능하다.
+  - setSearchParams : 더 간결하고 리액트 스타일
+
+  3. 다른 파라미터 유지하기
+
+  - setSearchParams를 사용하면서 기존 파라미터를 유지하려면
+
+    ```
+
+    setSearchParams(prevParams => {
+    // 현재 파라미터를 객체로 변환
+      const newParams = {};
+      for (const [key, value] of prevParams.entries()) {
+        newParams[key] = value;
+      }
+    // 새 값 추가/업데이트
+      newParams._page = 1;
+      newParams._per_page = per_page;
+      return newParams;
+    });
+
+    ```
+
+  4. 히스토리 처리
+
+  - `navigate`는 새 히스토리 항목을 생성
+  - `setSearchParams`도 기본적으로 새 히스토리 항목을 생성하지만, 옵션을 통해 조정할 수 있다.
+
+    ```
+
+    setSearchParams({ _page: 1 }, { replace: true })// 히스토리 항목 대체
+
+    ```
+
+- 어떤 것을 사용해야하는가?
+
+  1. 간단한 케이스 : `setSearchParams`를 사용하면 코드가 더 간결해진다.
+
+  ```
+
+  setSearchParams({ _page: 1, _per_page: per_page, category })
+
+  ```
+
+  2. 복잡한 조작이 필요한 경우 : URLSearchParams + navigate 방식이 더 유연하고 명확하다.
+
+  ```
+
+  const params = new URLSearchParams(searchParams)
+  params.set('_page', 1)
+  category ? params.set('category', category) : params.delete('category')
+  navigate(`/shop/?${params}`)
+
+  ```
+
+  두 방식 모두 유효하므로, 프로젝트의 일관성과 요구사항에 맞게 선택하면된다.
