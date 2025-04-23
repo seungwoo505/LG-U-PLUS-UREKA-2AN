@@ -1032,7 +1032,7 @@
       "price": 185000,
       "category": "new",
       "discount": 5,
-      "count": 3
+      "count": 1
     },
     {
       "id": "8",
@@ -1059,6 +1059,15 @@
       "price": 58000,
       "category": "new",
       "discount": 0,
+      "count": 1
+    },
+    {
+      "id": "2",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image10.jpg",
+      "price": 147445,
+      "category": "new",
+      "discount": 46,
       "count": 1
     }
   ]

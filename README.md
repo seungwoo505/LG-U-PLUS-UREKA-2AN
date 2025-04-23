@@ -216,3 +216,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [58일차(4월 21일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/58Day)
 : React Memo
+
+[59일차(4월 22일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/58Day)
+: URLSearchParams
