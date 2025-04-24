@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@200&display=swap');
+
+/* 
+.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+  
+.noto-sans-kr-<uniquifier> {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+  --dark-colors-accent-dark: #b4a186;
+  --dark-colors-light-gray-dark: #9a9a9a;
+  --dark-colors-gray-dark: #3d3d3d;
+  --dark-colors-dark-gray-dark: #272727;
+  --dark-colors-black-dark: #0a0a0a;
+  --dark-colors-white-dark: #fbfbfb;
+  --light-colors-errors-light: #d82700;
+  --light-colors-accent-light: #a18a68;
+  --light-colors-black-light: #000000;
+  --light-colors-dark-gray-light: #707070;
+  --light-colors-gray-light: #d8d8d8;
+  --light-colors-light-gray-light: #efefef;
+  --light-colors-white-light: #ffffff;
+
+  --fs8: 8px;
+  --fs12: 12px;
+  --fs16: 16px;
+  --fs20: 20px;
+  --fs26: 24px;
+  --fs33: 33px;
+  --fs64: 64px;
+
+  line-height: 1.6;
+}
+body {
+  background-color: #eaeaea;
+}
+
+body.dark-mode {
+  background-color: var(--dark-colors-black-dark);
+  color: var(--dark-colors-white-dark);
+
+  header {
+    background-image: transparent;
+
+    path{
+      fill: var(--light-colors-accent-light);
+    }
+  }
+}
+
+main,
+footer {
+  max-width: 1200px;
+  width: calc(100% - 4rem);
+  margin: auto;
+}
+main {
+  padding: 100px 0 var(--fs33);
+}
+footer {
+  padding: var(--fs33) 0;
+}
+main h2 {
+  font-size: var(--fs33);
+  color: var(--dark-colors-accent-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li{
+  list-style: none;
+}
+
+.swiper-pagination-bullet {
+  border-radius: 0;
+  width: var(--fs16);
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--dark-colors-accent-dark);
+}
+
+@media (max-width : 1100px){
+  body.dark-mode nav {
+    color: var(--dark-colors-black-dark);
+
+    & + div {
+      color: var(--dark-colors-black-dark);
+    }
+  }
+}

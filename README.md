@@ -222,3 +222,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [60일차(4월 23일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/60Day)
 : 복습
+
+[61일차(4월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/61Day)
+: React Redux

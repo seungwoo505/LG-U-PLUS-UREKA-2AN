@@ -1,0 +1,1106 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "14K/18K 스타피쉬 헤어핀",
+      "img": "image10.jpg",
+      "price": 205805,
+      "category": "top",
+      "discount": 17
+    },
+    {
+      "id": "2",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image10.jpg",
+      "price": 147445,
+      "category": "new",
+      "discount": 46
+    },
+    {
+      "id": "3",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image7.jpg",
+      "price": 18374,
+      "category": "new",
+      "discount": 24
+    },
+    {
+      "id": "4",
+      "title": "14K/18K 심플 반지",
+      "img": "image9.jpg",
+      "price": 418907,
+      "category": "new",
+      "discount": 18
+    },
+    {
+      "id": "5",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image7.jpg",
+      "price": 364786,
+      "category": "top",
+      "discount": 20
+    },
+    {
+      "id": "6",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image1.jpg",
+      "price": 314221,
+      "category": "new",
+      "discount": 33
+    },
+    {
+      "id": "7",
+      "title": "14K/18K 진주 스타일링 핀",
+      "img": "image7.jpg",
+      "price": 409972,
+      "category": "top",
+      "discount": 20
+    },
+    {
+      "id": "8",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image9.jpg",
+      "price": 285686,
+      "category": "top",
+      "discount": 31
+    },
+    {
+      "id": "9",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image2.jpg",
+      "price": 433639,
+      "category": "new",
+      "discount": 28
+    },
+    {
+      "id": "10",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image5.jpg",
+      "price": 186978,
+      "category": "new",
+      "discount": 27
+    },
+    {
+      "id": "11",
+      "title": "14K/18K 심플 반지",
+      "img": "image3.jpg",
+      "price": 227569,
+      "category": "top",
+      "discount": 30
+    },
+    {
+      "id": "12",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image8.jpg",
+      "price": 15059,
+      "category": "top",
+      "discount": 17
+    },
+    {
+      "id": "13",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image5.jpg",
+      "price": 57246,
+      "category": "new",
+      "discount": 31
+    },
+    {
+      "id": "14",
+      "title": "14K/18K 진주 스타일링 핀",
+      "img": "image1.jpg",
+      "price": 403002,
+      "category": "new",
+      "discount": 25
+    },
+    {
+      "id": "15",
+      "title": "14K/18K 심플 반지",
+      "img": "image5.jpg",
+      "price": 333209,
+      "category": "top",
+      "discount": 21
+    },
+    {
+      "id": "16",
+      "title": "14K/18K 심플 반지",
+      "img": "image8.jpg",
+      "price": 60506,
+      "category": "new",
+      "discount": 49
+    },
+    {
+      "id": "17",
+      "title": "14K/18K 심플 반지",
+      "img": "image4.jpg",
+      "price": 272605,
+      "category": "top",
+      "discount": 20
+    },
+    {
+      "id": "18",
+      "title": "14K/18K 심플 반지",
+      "img": "image10.jpg",
+      "price": 438426,
+      "category": "new",
+      "discount": 4
+    },
+    {
+      "id": "19",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image4.jpg",
+      "price": 431033,
+      "category": "new",
+      "discount": 49
+    },
+    {
+      "id": "20",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image8.jpg",
+      "price": 453384,
+      "category": "top",
+      "discount": 36
+    },
+    {
+      "id": "21",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image8.jpg",
+      "price": 103240,
+      "category": "top",
+      "discount": 31
+    },
+    {
+      "id": "22",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image5.jpg",
+      "price": 469514,
+      "category": "new",
+      "discount": 35
+    },
+    {
+      "id": "23",
+      "title": "14K/18K 큐빅 원터치 귀걸이",
+      "img": "image8.jpg",
+      "price": 499576,
+      "category": "top",
+      "discount": 28
+    },
+    {
+      "id": "24",
+      "title": "14K/18K 심플 반지",
+      "img": "image6.jpg",
+      "price": 378763,
+      "category": "new",
+      "discount": 5
+    },
+    {
+      "id": "25",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image6.jpg",
+      "price": 477483,
+      "category": "top",
+      "discount": 8
+    },
+    {
+      "id": "26",
+      "title": "14K/18K 스타피쉬 헤어핀",
+      "img": "image9.jpg",
+      "price": 219365,
+      "category": "top",
+      "discount": 3
+    },
+    {
+      "id": "27",
+      "title": "14K/18K 큐빅 원터치 귀걸이",
+      "img": "image5.jpg",
+      "price": 426263,
+      "category": "new",
+      "discount": 14
+    },
+    {
+      "id": "28",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image8.jpg",
+      "price": 280738,
+      "category": "new",
+      "discount": 28
+    },
+    {
+      "id": "29",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image10.jpg",
+      "price": 169481,
+      "category": "top",
+      "discount": 22
+    },
+    {
+      "id": "30",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image10.jpg",
+      "price": 400185,
+      "category": "new",
+      "discount": 23
+    },
+    {
+      "id": "31",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image6.jpg",
+      "price": 494631,
+      "category": "new",
+      "discount": 45
+    },
+    {
+      "id": "32",
+      "title": "14K/18K 스타피쉬 헤어핀",
+      "img": "image7.jpg",
+      "price": 450154,
+      "category": "new",
+      "discount": 23
+    },
+    {
+      "id": "33",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image6.jpg",
+      "price": 71453,
+      "category": "new",
+      "discount": 8
+    },
+    {
+      "id": "34",
+      "title": "14K/18K 진주 스타일링 핀",
+      "img": "image3.jpg",
+      "price": 22822,
+      "category": "top",
+      "discount": 0
+    },
+    {
+      "id": "35",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image8.jpg",
+      "price": 290366,
+      "category": "top",
+      "discount": 13
+    },
+    {
+      "id": "36",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image8.jpg",
+      "price": 327349,
+      "category": "top",
+      "discount": 33
+    },
+    {
+      "id": "37",
+      "title": "14K/18K 심플 반지",
+      "img": "image10.jpg",
+      "price": 322043,
+      "category": "new",
+      "discount": 23
+    },
+    {
+      "id": "38",
+      "title": "14K/18K 로즈골드 체인 귀걸이",
+      "img": "image3.jpg",
+      "price": 145926,
+      "category": "top",
+      "discount": 39
+    },
+    {
+      "id": "39",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image1.jpg",
+      "price": 53688,
+      "category": "new",
+      "discount": 42
+    },
+    {
+      "id": "40",
+      "title": "14K/18K 로즈골드 체인 귀걸이",
+      "img": "image5.jpg",
+      "price": 147708,
+      "category": "top",
+      "discount": 38
+    },
+    {
+      "id": "41",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image5.jpg",
+      "price": 75055,
+      "category": "top",
+      "discount": 5
+    },
+    {
+      "id": "42",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image2.jpg",
+      "price": 101239,
+      "category": "new",
+      "discount": 39
+    },
+    {
+      "id": "43",
+      "title": "14K/18K 심플 반지",
+      "img": "image10.jpg",
+      "price": 21358,
+      "category": "top",
+      "discount": 21
+    },
+    {
+      "id": "44",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image6.jpg",
+      "price": 228145,
+      "category": "new",
+      "discount": 30
+    },
+    {
+      "id": "45",
+      "title": "14K/18K 심플 반지",
+      "img": "image2.jpg",
+      "price": 431196,
+      "category": "new",
+      "discount": 32
+    },
+    {
+      "id": "46",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image1.jpg",
+      "price": 257737,
+      "category": "top",
+      "discount": 44
+    },
+    {
+      "id": "47",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image9.jpg",
+      "price": 115403,
+      "category": "new",
+      "discount": 0
+    },
+    {
+      "id": "48",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image10.jpg",
+      "price": 38453,
+      "category": "top",
+      "discount": 39
+    },
+    {
+      "id": "49",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image5.jpg",
+      "price": 109887,
+      "category": "top",
+      "discount": 38
+    },
+    {
+      "id": "50",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image6.jpg",
+      "price": 406784,
+      "category": "new",
+      "discount": 21
+    },
+    {
+      "id": "51",
+      "title": "14K/18K 큐빅 원터치 귀걸이",
+      "img": "image5.jpg",
+      "price": 473204,
+      "category": "new",
+      "discount": 30
+    },
+    {
+      "id": "52",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image3.jpg",
+      "price": 13102,
+      "category": "top",
+      "discount": 14
+    },
+    {
+      "id": "53",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image7.jpg",
+      "price": 286038,
+      "category": "new",
+      "discount": 43
+    },
+    {
+      "id": "54",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image10.jpg",
+      "price": 297159,
+      "category": "new",
+      "discount": 21
+    },
+    {
+      "id": "55",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image9.jpg",
+      "price": 154468,
+      "category": "new",
+      "discount": 45
+    },
+    {
+      "id": "56",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image6.jpg",
+      "price": 480520,
+      "category": "top",
+      "discount": 1
+    },
+    {
+      "id": "57",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image10.jpg",
+      "price": 149904,
+      "category": "top",
+      "discount": 27
+    },
+    {
+      "id": "58",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image2.jpg",
+      "price": 299330,
+      "category": "top",
+      "discount": 12
+    },
+    {
+      "id": "59",
+      "title": "14K/18K 심플 반지",
+      "img": "image7.jpg",
+      "price": 321193,
+      "category": "new",
+      "discount": 3
+    },
+    {
+      "id": "60",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image9.jpg",
+      "price": 354739,
+      "category": "new",
+      "discount": 27
+    },
+    {
+      "id": "61",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image3.jpg",
+      "price": 497109,
+      "category": "new",
+      "discount": 11
+    },
+    {
+      "id": "62",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image5.jpg",
+      "price": 263214,
+      "category": "top",
+      "discount": 17
+    },
+    {
+      "id": "63",
+      "title": "14K/18K 큐빅 원터치 귀걸이",
+      "img": "image8.jpg",
+      "price": 151077,
+      "category": "new",
+      "discount": 41
+    },
+    {
+      "id": "64",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image5.jpg",
+      "price": 183718,
+      "category": "top",
+      "discount": 45
+    },
+    {
+      "id": "65",
+      "title": "14K/18K 진주 스타일링 핀",
+      "img": "image9.jpg",
+      "price": 283147,
+      "category": "new",
+      "discount": 2
+    },
+    {
+      "id": "66",
+      "title": "14K/18K 스타피쉬 헤어핀",
+      "img": "image1.jpg",
+      "price": 183402,
+      "category": "top",
+      "discount": 21
+    },
+    {
+      "id": "67",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image9.jpg",
+      "price": 217797,
+      "category": "top",
+      "discount": 49
+    },
+    {
+      "id": "68",
+      "title": "14K/18K 로즈골드 체인 귀걸이",
+      "img": "image3.jpg",
+      "price": 370860,
+      "category": "new",
+      "discount": 19
+    },
+    {
+      "id": "69",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image6.jpg",
+      "price": 148228,
+      "category": "new",
+      "discount": 40
+    },
+    {
+      "id": "70",
+      "title": "14K/18K 스타피쉬 헤어핀",
+      "img": "image7.jpg",
+      "price": 277877,
+      "category": "top",
+      "discount": 37
+    },
+    {
+      "id": "71",
+      "title": "14K/18K 심플 반지",
+      "img": "image3.jpg",
+      "price": 119543,
+      "category": "top",
+      "discount": 1
+    },
+    {
+      "id": "72",
+      "title": "14K/18K 심플 반지",
+      "img": "image8.jpg",
+      "price": 474290,
+      "category": "top",
+      "discount": 23
+    },
+    {
+      "id": "73",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image3.jpg",
+      "price": 280832,
+      "category": "new",
+      "discount": 26
+    },
+    {
+      "id": "74",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image8.jpg",
+      "price": 192568,
+      "category": "top",
+      "discount": 15
+    },
+    {
+      "id": "75",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image5.jpg",
+      "price": 249732,
+      "category": "top",
+      "discount": 23
+    },
+    {
+      "id": "76",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image6.jpg",
+      "price": 104854,
+      "category": "top",
+      "discount": 7
+    },
+    {
+      "id": "77",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image8.jpg",
+      "price": 48558,
+      "category": "top",
+      "discount": 22
+    },
+    {
+      "id": "78",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image1.jpg",
+      "price": 150939,
+      "category": "top",
+      "discount": 25
+    },
+    {
+      "id": "79",
+      "title": "14K/18K 로즈골드 체인 귀걸이",
+      "img": "image5.jpg",
+      "price": 225304,
+      "category": "top",
+      "discount": 39
+    },
+    {
+      "id": "80",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image4.jpg",
+      "price": 66358,
+      "category": "top",
+      "discount": 44
+    },
+    {
+      "id": "81",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image6.jpg",
+      "price": 287554,
+      "category": "new",
+      "discount": 15
+    },
+    {
+      "id": "82",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image9.jpg",
+      "price": 265010,
+      "category": "new",
+      "discount": 10
+    },
+    {
+      "id": "83",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image1.jpg",
+      "price": 37309,
+      "category": "top",
+      "discount": 21
+    },
+    {
+      "id": "84",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image3.jpg",
+      "price": 458232,
+      "category": "top",
+      "discount": 47
+    },
+    {
+      "id": "85",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image10.jpg",
+      "price": 183602,
+      "category": "top",
+      "discount": 20
+    },
+    {
+      "id": "86",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image7.jpg",
+      "price": 491675,
+      "category": "new",
+      "discount": 5
+    },
+    {
+      "id": "87",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image8.jpg",
+      "price": 367236,
+      "category": "top",
+      "discount": 37
+    },
+    {
+      "id": "88",
+      "title": "14K/18K 심플 반지",
+      "img": "image6.jpg",
+      "price": 46669,
+      "category": "new",
+      "discount": 50
+    },
+    {
+      "id": "89",
+      "title": "14K/18K 심플 반지",
+      "img": "image7.jpg",
+      "price": 94030,
+      "category": "new",
+      "discount": 47
+    },
+    {
+      "id": "90",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image10.jpg",
+      "price": 229510,
+      "category": "top",
+      "discount": 41
+    },
+    {
+      "id": "91",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image10.jpg",
+      "price": 274501,
+      "category": "top",
+      "discount": 16
+    },
+    {
+      "id": "92",
+      "title": "14K/18K 큐빅 원터치 귀걸이",
+      "img": "image3.jpg",
+      "price": 376610,
+      "category": "top",
+      "discount": 20
+    },
+    {
+      "id": "93",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image1.jpg",
+      "price": 492142,
+      "category": "top",
+      "discount": 38
+    },
+    {
+      "id": "94",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image6.jpg",
+      "price": 456662,
+      "category": "new",
+      "discount": 14
+    },
+    {
+      "id": "95",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image4.jpg",
+      "price": 440506,
+      "category": "top",
+      "discount": 33
+    },
+    {
+      "id": "96",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image5.jpg",
+      "price": 125487,
+      "category": "new",
+      "discount": 0
+    },
+    {
+      "id": "97",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image4.jpg",
+      "price": 480130,
+      "category": "top",
+      "discount": 47
+    },
+    {
+      "id": "98",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image7.jpg",
+      "price": 481116,
+      "category": "new",
+      "discount": 17
+    },
+    {
+      "id": "99",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image1.jpg",
+      "price": 340806,
+      "category": "top",
+      "discount": 18
+    },
+    {
+      "id": "100",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image3.jpg",
+      "price": 208327,
+      "category": "top",
+      "discount": 32
+    },
+    {
+      "id": "101",
+      "title": "14K/18K 심플 반지",
+      "img": "image4.jpg",
+      "price": 495178,
+      "category": "new",
+      "discount": 9
+    },
+    {
+      "id": "102",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image1.jpg",
+      "price": 241373,
+      "category": "new",
+      "discount": 18
+    },
+    {
+      "id": "103",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image3.jpg",
+      "price": 373347,
+      "category": "new",
+      "discount": 2
+    },
+    {
+      "id": "104",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image2.jpg",
+      "price": 74257,
+      "category": "new",
+      "discount": 7
+    },
+    {
+      "id": "105",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image10.jpg",
+      "price": 180313,
+      "category": "new",
+      "discount": 33
+    },
+    {
+      "id": "106",
+      "title": "14K/18K 심플 반지",
+      "img": "image6.jpg",
+      "price": 170441,
+      "category": "top",
+      "discount": 45
+    },
+    {
+      "id": "107",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image10.jpg",
+      "price": 106071,
+      "category": "new",
+      "discount": 41
+    },
+    {
+      "id": "108",
+      "title": "14K/18K 데일리 볼귀걸이",
+      "img": "image6.jpg",
+      "price": 184017,
+      "category": "new",
+      "discount": 43
+    },
+    {
+      "id": "109",
+      "title": "14K/18K 심플 반지",
+      "img": "image1.jpg",
+      "price": 430538,
+      "category": "new",
+      "discount": 35
+    },
+    {
+      "id": "110",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image2.jpg",
+      "price": 144484,
+      "category": "top",
+      "discount": 9
+    },
+    {
+      "id": "111",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image9.jpg",
+      "price": 451768,
+      "category": "new",
+      "discount": 42
+    },
+    {
+      "id": "112",
+      "title": "14K/18K 진주 스타일링 핀",
+      "img": "image10.jpg",
+      "price": 70283,
+      "category": "top",
+      "discount": 3
+    },
+    {
+      "id": "113",
+      "title": "14K/18K 진주 스타일링 핀",
+      "img": "image10.jpg",
+      "price": 478390,
+      "category": "new",
+      "discount": 39
+    },
+    {
+      "id": "114",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image2.jpg",
+      "price": 222421,
+      "category": "top",
+      "discount": 0
+    },
+    {
+      "id": "115",
+      "title": "14K/18K 심플 반지",
+      "img": "image7.jpg",
+      "price": 209245,
+      "category": "new",
+      "discount": 34
+    },
+    {
+      "id": "116",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image6.jpg",
+      "price": 260333,
+      "category": "new",
+      "discount": 23
+    },
+    {
+      "id": "117",
+      "title": "14K/18K 티얼스 체인 목걸이",
+      "img": "image2.jpg",
+      "price": 20026,
+      "category": "new",
+      "discount": 24
+    },
+    {
+      "id": "118",
+      "title": "14K/18K 더블링 목걸이",
+      "img": "image6.jpg",
+      "price": 203623,
+      "category": "top",
+      "discount": 3
+    },
+    {
+      "id": "119",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image3.jpg",
+      "price": 29870,
+      "category": "new",
+      "discount": 23
+    },
+    {
+      "id": "120",
+      "title": "14K/18K T라인 링 귀걸이",
+      "img": "image2.jpg",
+      "price": 255258,
+      "category": "new",
+      "discount": 12
+    },
+    {
+      "id": "121",
+      "title": "14K/18K 심플 반지",
+      "img": "image10.jpg",
+      "price": 491826,
+      "category": "top",
+      "discount": 11
+    },
+    {
+      "id": "122",
+      "title": "14K/18K 큐빅 헤어핀",
+      "img": "image5.jpg",
+      "price": 304035,
+      "category": "new",
+      "discount": 8
+    },
+    {
+      "id": "123",
+      "title": "14K/18K 럭셔리 큐빅 반지",
+      "img": "image10.jpg",
+      "price": 105630,
+      "category": "new",
+      "discount": 4
+    },
+    {
+      "id": "124",
+      "title": "14K/18K 리프 큐빅 목걸이",
+      "img": "image5.jpg",
+      "price": 71796,
+      "category": "new",
+      "discount": 0
+    },
+    {
+      "id": "125",
+      "title": "14K/18K 큐트 하트 목걸이",
+      "img": "image7.jpg",
+      "price": 119817,
+      "category": "top",
+      "discount": 7
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "img": "/public/img/Img_bg1.jpg",
+      "title": "이벤트 제목1",
+      "description": "1배너 리스트 영역의 배너 상세 내용이 들어갑니다.",
+      "link": "/shop"
+    },
+    {
+      "id": "2",
+      "img": "/public/img/Img_bg2.jpg",
+      "title": "이벤트 제목2",
+      "description": "22배너 리스트 영역의 배너 상세 내용이 들어갑니다.",
+      "link": "/shop"
+    },
+    {
+      "id": "3",
+      "img": "/public/img/Img_bg3.jpg",
+      "title": "이벤트 제목2",
+      "description": "333배너 리스트 영역의 배너 상세 내용이 들어갑니다.",
+      "link": "/shop"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "title": "14K/18K 허니 벌집2 헥사곤 심플 반지",
+      "img": "image1.jpg",
+      "price": 185000,
+      "category": "new",
+      "discount": 5,
+      "count": 1
+    },
+    {
+      "id": "8",
+      "title": "진주 헤어핀 스타일링 5종 연예인 스타일 옆머리 고정삔 5종",
+      "img": "image8.jpg",
+      "price": 54000,
+      "category": "new",
+      "discount": 10,
+      "count": 3
+    },
+    {
+      "id": "4",
+      "title": "14k/18k 데일리 더블링 목걸이",
+      "img": "image4.jpg",
+      "price": 318000,
+      "category": "new",
+      "discount": 42,
+      "count": 1
+    },
+    {
+      "id": "5",
+      "title": "14K/18K 네쥬 T라인 원터치 링 귀찌 귀걸이",
+      "img": "image5.jpg",
+      "price": 58000,
+      "category": "new",
+      "discount": 0,
+      "count": 1
+    },
+    {
+      "id": "2",
+      "title": "14K/18K 심플 진주 반지",
+      "img": "image10.jpg",
+      "price": 147445,
+      "category": "new",
+      "discount": 46,
+      "count": 1
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "todoDesc": "청소하기",
+      "createAt": "2025-04-01",
+      "isDone": false
+    },
+    {
+      "id": "2",
+      "todoDesc": "운동하기",
+      "createAt": "2025-04-02",
+      "isDone": true
+    },
+    {
+      "id": "3",
+      "todoDesc": "공부하기",
+      "createAt": "2025-04-03",
+      "isDone": false
+    },
+    {
+      "id": "4",
+      "todoDesc": "영화보기",
+      "createAt": "2025-04-04",
+      "isDone": true
+    },
+    {
+      "id": "5",
+      "todoDesc": "독서하기",
+      "createAt": "2025-04-05",
+      "isDone": false
+    }
+  ]
+}
