@@ -226,5 +226,5 @@ LG U+ 유레카 프론트엔드 비대면
 [61일차(4월 24일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/61Day)
 : React Redux
 
-[62일차(4월 25일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/61Day)
+[62일차(4월 25일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/13Week/62Day)
 : React 페이지 혼자서 만들어보기
