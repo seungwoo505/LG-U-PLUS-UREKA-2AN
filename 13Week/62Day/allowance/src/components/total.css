@@ -1,0 +1,67 @@
+.total-allowance-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .balance-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance-section h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .balance-section p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .summary-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .income-box, .expenditure-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  
+  .income-box h2 {
+    color: #1976d2;
+  }
+  .income-box p {
+    color: #1976d2;
+  }
+  
+  .expenditure-box h2 {
+    color: #d32f2f;
+  }
+  .expenditure-box p {
+    color: #d32f2f;
+  }
+  
+  .income-box p, .expenditure-box p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* 잔액 색상 구분: balance-section 내 p에 클래스가 붙었을 때 적용 */
+  .balance-section p.balance-positive {
+    color: #1976d2;
+  }
+  .balance-section p.balance-negative {
+    color: #d32f2f;
+  }
