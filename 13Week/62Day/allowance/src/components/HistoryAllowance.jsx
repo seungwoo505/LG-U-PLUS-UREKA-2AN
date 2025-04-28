@@ -13,10 +13,12 @@ const HistoryAllowance = () => {
       dispatch(removeAllowance(index));
     };
 
+    /*
     useEffect(() => {
       if(data === undefined || data === null ) return;
       dispatch(initAllowance(data));
     }, [data, allowance]);
+    */
   return (
     <div className="history-allowance-container">
         <h2 className="history-title">내역</h2>

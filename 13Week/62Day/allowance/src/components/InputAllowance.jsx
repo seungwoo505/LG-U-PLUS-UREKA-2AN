@@ -38,7 +38,7 @@ const InputAllowance = () => {
                   type='radio' 
                   name='allowance' 
                   value='income'
-                  defaultChecked={type === 'income'}
+                  checked={type === 'income'}
                   onChange={() => setType('income')}
                   required
               /> 수입
@@ -48,7 +48,7 @@ const InputAllowance = () => {
                   type='radio' 
                   name='allowance' 
                   value='expenditure'
-                  defaultChecked={type === 'expenditure'}
+                  checked={type === 'expenditure'}
                   onChange={() => setType('expenditure')}
                   required
               /> 지출
