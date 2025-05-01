@@ -236,3 +236,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [64일차(4월 29일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/64Day)
 : api 연동
+
+[64일차(4월 29일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/64Day)
+: 보안
