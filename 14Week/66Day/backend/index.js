@@ -1,3 +1,4 @@
+import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
@@ -6,6 +7,8 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import cookieParser from 'cookie-parser';
 
+dotenv.config();
+
 const app = express();
 const port = process.env.PORT;
 const saltRounds = process.env.BCRYPT_SALT_ROUNDS;
@@ -13,7 +16,7 @@ const secretKey = process.env.JWT_SECRET;
 const tokenLife = process.env.JWT_EXPIRATION;
 
 app.use(cors({
-    origin : FRONTEND_URL,
+    origin : process.env.FRONTEND_URL,
     credentials : true // 쿠키 전송 허용
 }));
 app.use(express.json());
