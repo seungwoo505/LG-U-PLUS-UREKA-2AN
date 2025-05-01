@@ -237,5 +237,8 @@ LG U+ 유레카 프론트엔드 비대면
 [64일차(4월 29일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/64Day)
 : api 연동
 
-[64일차(4월 29일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/64Day)
-: 보안
+[65일차(4월 30일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/65Day)
+: 보안 (CORS, 정규표현식), MongoDB
+
+[66일차(4월 30일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/66Day)
+: 보안 (CORS, JWT, HttpOnly, Cookie-Parser)

@@ -1,0 +1,130 @@
+.quill-editor-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.quill-editor-container .quill {
+  width: 100%;
+}
+
+.quill-editor-container .ql-container {
+  min-height: 200px;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.quill-editor-container .ql-editor {
+  min-height: 200px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.quill-editor-container .ql-toolbar {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+/* Quill 에디터로 작성된 콘텐츠를 위한 스타일 */
+.ql-content {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* 제목 스타일 */
+.ql-content h1 {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.ql-content h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.ql-content h3 {
+  font-size: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* 단락 스타일 */
+.ql-content p {
+  margin-bottom: 1em;
+}
+
+/* 리스트 스타일 */
+.ql-content ul,
+.ql-content ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.ql-content li {
+  margin-bottom: 0.5em;
+}
+
+/* 이미지 스타일 */
+.ql-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* 인용문 스타일 */
+.ql-content blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* 링크 스타일 */
+.ql-content a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.ql-content a:hover {
+  text-decoration: underline;
+}
+
+/* 코드 블록 */
+.ql-content pre {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+  overflow-x: auto;
+}
+
+.ql-content code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* 텍스트 서식 */
+.ql-content strong {
+  font-weight: bold;
+}
+
+.ql-content em {
+  font-style: italic;
+}
+
+.ql-content s {
+  text-decoration: line-through;
+}

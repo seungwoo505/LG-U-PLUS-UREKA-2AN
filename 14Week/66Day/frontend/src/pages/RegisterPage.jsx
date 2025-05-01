@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import style from './RegisterPage.module.css';
-import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
+import { registerUser } from '../api/userApi';
 
 const RegisterPage = () => {
     const [userName, setUserName] = useState('');
@@ -10,6 +11,8 @@ const RegisterPage = () => {
     const [errPassword, setErrPassword] = useState('');
     const [errPasswordCK, setErrPasswordCK] = useState('');
     const [registerState, setRegisterState] = useState('등록중');
+
+    const navigate = useNavigate();
 
     const validateUserName = value => {
         if(!value){
@@ -77,11 +80,12 @@ const RegisterPage = () => {
         try {
             setRegisterState('등록중');
 
-            const response = await axios.post('http://localhost:3000/register', {userName, password});
+            const response = await registerUser({userName, password});
 
             console.log(response.data);
 
             setRegisterState('등록 완료');
+            navigate('/login');
         } catch (error) {
             setRegisterState('등록 중 오류가 발생했습니다.');
             console.error('err --- ', error);
@@ -90,6 +94,7 @@ const RegisterPage = () => {
   return (
     <main className={style.registerPage}>
         <h2>회원가입 페이지</h2>
+        {registerState && <strong>{registerState}</strong>}
         <form className={style.container} onSubmit={register}>
             <input 
                 type='text' 
