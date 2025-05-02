@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    padding: 1rem;
+
+    a, span, button{
+        display: inline-block;
+        padding: 0.25rem 1rem;
+    }
+}

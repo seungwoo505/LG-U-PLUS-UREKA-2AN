@@ -1,0 +1,79 @@
+.createPost {
+    padding: 0 2rem;
+  }
+  .createPost h2 {
+    padding-bottom: 2rem;
+  }
+  .writeCon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .writeCon > label {
+    width: 120px;
+  }
+  .writeCon > input {
+    padding: 1rem;
+  }
+  .writeCon > :not(label) {
+    width: calc(100% - 120px - 1rem);
+  }
+  .writeCon > textarea {
+    height: 300px;
+  }
+  
+  .writeCon > button {
+    padding: 1rem;
+    margin-left: calc(120px + 1rem);
+    width: 200px;
+  }
+  .writeCon > p {
+    font-size: 0.75rem;
+    color: red;
+    text-align: right;
+    width: 100%;
+  }
+  .writeCon .smallimg {
+    text-align: left;
+    padding-left: 130px;
+  }
+  .writeCon .smallimg img {
+    width: 100px;
+  }
+  
+  .editorWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* 버튼 스타일 */
+  .writeCon button[type='submit'] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .writeCon button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  .writeCon button[type='submit']:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* 오류 메시지 스타일 */
+  .errorMessage {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 0.5em;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,33 @@
+.container {
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+
+    flex-direction: column;
+    display: flex;
+    gap: 0.5em;
+
+    input {
+        padding: 1rem;
+        border-radius: 0.25em;
+        border: 1px solid lightblue;
+        outline: none;
+
+        &:focus {
+            background-color: lightblue;
+        }
+    }
+
+    strong {
+        color: red;
+        font-weight: normal;
+        font-size: 0.75em;
+    }
+
+    button {
+        padding: 1em;
+        background-color: lightskyblue;
+        border-radius: 1em;
+        align-self: center;
+    }
+}
