@@ -242,3 +242,6 @@ LG U+ 유레카 프론트엔드 비대면
 
 [66일차(5월 1일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/66Day)
 : 보안 (CORS, JWT, HttpOnly, Cookie-Parser)
+
+[67일차(5월 2일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/14Week/67Day)
+: 보안 (CORS, JWT, HttpOnly, Cookie-Parser)
