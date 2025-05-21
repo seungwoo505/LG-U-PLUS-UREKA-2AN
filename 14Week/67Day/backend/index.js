@@ -11,6 +11,7 @@ import path from 'path';
 import fs from 'fs';
 import { postModel } from './post.js';
 import {fileURLToPath} from 'url';
+import axios from 'axios';
 
 
 dotenv.config();
@@ -216,6 +217,21 @@ app.get('/postDetail/:postId', async (req, res) => {
         res.status(500).json({error : "게시물 상세 조회 실페"})
     }
 });
+
+app.get("/test", async (req, res) => {
+    try {
+        const test = await axios.get(`http://api.nongsaro.go.kr/service/feedRawMaterial/upperList/apiKey=${process.env.ANIMAL_FOOD_API}`);
+
+        console.log(test);
+        return res.status(200).json({ test: test.data });
+    } catch (error) {
+        console.error(error);
+        return res.status(404).json({
+            message: error.message,
+            ...(error.response && { details: error.response.data }),
+          });
+    }
+})
 
 app.listen(port, () => {
     console.log(`${port}동작 성공`);
