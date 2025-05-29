@@ -264,4 +264,4 @@ LG U+ 유레카 프론트엔드 비대면
 ---------------------------------- [18주차](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/18Week) -----------------------------------
 
 [80~84일차(5월 26일 ~ 30일)](https://github.com/seungwoo505/LG-U-PLUS-UREKA-2AN/tree/main/18Week)
-: 자습
+: 82일차는 취업특강 그 외엔 자습
